@@ -1,0 +1,63 @@
+{
+    "code": 200,
+    "data": {
+        "trade_id": "R1A0E32277CD445D58F759F89967890214201",
+        "ad_id": "zjadiOSZI0001",
+        "sign": "031DDA94049D1D8A8DA1D15EE52E293D",
+        "adverts": [{
+            "ad_item_id": "N2401039072020261",
+            "area_enable": false,
+            "price": 1,
+            "desc": "29元充值100元话费，先到先得！",
+            "image": "http://static-dsp.8ziben.com/dsp/images/2024/02/02/cmubgud982otbmdta93g0540.png",
+            "image_thumb": "",
+            "logo": "http://static-dsp.8ziben.com/dsp/images/2024/02/01/cmtjge5982os8vvfqceg8407.png",
+            "title": "全民领话费 ",
+
+            "screen_show": "half",
+            "is_show_retain_page": true,
+            "is_show_end_page": false,
+            "is_award": true,
+            
+            "click_action": {
+                "apk_file_name": "",
+                "apk_url": "https://ds.alipay.com/?scheme=alipays%3A%2F%2Fplatformapi%2Fstartapp%3FappId%3D2021004129612448",
+                "app_name": "",
+                "app_store": "",
+                "package_name": "",
+                "page": "https://ds.alipay.com/?scheme=alipays%3A%2F%2Fplatformapi%2Fstartapp%3FappId%3D2021004129612448",
+                "schema": "",
+                "type": "H5",
+                "wechat_appid": "",
+                "wechat_mini_id": "",
+                "wechat_mini_path": "",
+                "wechat_mini_appid": "",
+                "ios_universal_link": "",
+                "is_down_confirm": 0,
+                "logo": "",
+                "version": "",
+                "developer": "",
+                "update_at": "",
+                "permissions": null,
+                "privacy_policy_url": ""
+            },
+            "layout": {
+                "image_location": "video_txtfloat",
+                "image_ratio": "9x16",
+                "image_size": "720x1280",
+                "location_size": ""
+            },
+            "video": {
+                "duration": 37,
+                "skip_duration": 2,
+                "url": "http://static-dsp.8ziben.com/dsp/videos/2024/02/01/cmtjgjl982os8vvfqcf06780.mp4",
+                "valid_duration": 4
+            },
+            "card_info": {
+                "image_log": "http://static-dsp.8ziben.com/dsp/images/2024/02/02/cmubgud982otbmdta93g0540.png"
+            },
+            "event_urls": {}
+        }]
+    },
+    "msg": "OK"
+}
