@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setBidEcpm:(NSInteger)ecpm DEPRECATED_MSG_ATTRIBUTE("use DspFeedAdView setBidEcpm instead.");
 
-- (NSInteger)getEcpm DEPRECATED_MSG_ATTRIBUTE("use DspFeedAdView getEcpm instead.");;
+- (NSInteger)getEcpm DEPRECATED_MSG_ATTRIBUTE("use DspFeedAdView getEcpm instead.");
 @end
 
 NS_ASSUME_NONNULL_END

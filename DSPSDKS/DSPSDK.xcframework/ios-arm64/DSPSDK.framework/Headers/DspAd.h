@@ -25,10 +25,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy) NSString *zjad_id;
 @property(nonatomic,copy) NSString *trade_id;
 @property(nonatomic,copy) NSString *ad_id;
-@property(nonatomic,copy) NSString *ad_type;
-@property(nonatomic,copy) NSString *lv_url;
-@property(nonatomic,copy) NSString *lv_sd;
-@property(nonatomic,copy) NSString *shake_power;
+@property(nonatomic,copy) NSString *ad_type; // 广告类型
+@property(nonatomic,copy) NSString *lv_url; // 设置兜底视频
+@property(nonatomic,copy) NSString *lv_sd; // 跳过的时间
+@property(nonatomic,copy) NSString *shake_power; // 摇一摇
 
 @property(nonatomic,weak) UIViewController* rootViewController;
 

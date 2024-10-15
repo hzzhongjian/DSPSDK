@@ -21,6 +21,7 @@ FOUNDATION_EXPORT const unsigned char DSPSDKVersionString[];
 #import <DSPSDK/DspSplashAd.h>
 #import <DSPSDK/DspViewDelegate.h>
 #import <DSPSDK/DspRewardViewDelegate.h>
+#import <DSPSDK/DSPDeviceInfo.h>
 
 // In this header, you should import all the public headers of your framework using statements like #import <DSPSDK/PublicHeader.h>
 

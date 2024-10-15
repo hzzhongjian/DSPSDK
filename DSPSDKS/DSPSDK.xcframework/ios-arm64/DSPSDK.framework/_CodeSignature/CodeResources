@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/DSPDeviceInfo.h</key>
+		<data>
+		YaPmQDvk3LpNZYjEqPLqXGmzQ44=
+		</data>
 		<key>Headers/DSPSDK.h</key>
 		<data>
-		GzJtayW21eYlR93rRbArgQ147Nk=
+		UrTakq1GzbmQVSR27IRfhTgZNOI=
 		</data>
 		<key>Headers/DSPSDKConfig.h</key>
 		<data>
@@ -18,7 +22,7 @@
 		</data>
 		<key>Headers/DspAd.h</key>
 		<data>
-		T2wfDq9GQYwftnqSnAXIb9Oeb5M=
+		KybU0/Sf37MB2u3hYpwbLVGIVpE=
 		</data>
 		<key>Headers/DspAdAction.h</key>
 		<data>
@@ -42,7 +46,7 @@
 		</data>
 		<key>Headers/DspAdVideo.h</key>
 		<data>
-		mPx5dp7/kdh5M7RHfm0ul8yBGWo=
+		dYK1EI1u5cnGYUn83OLuS1/PBCM=
 		</data>
 		<key>Headers/DspBannerAd.h</key>
 		<data>
@@ -54,7 +58,7 @@
 		</data>
 		<key>Headers/DspFeedAd.h</key>
 		<data>
-		lsyToi1sJGKAdf9vtnQSmSa3RXg=
+		so5mY/73UVp3wkUN+OTHvlCbKW0=
 		</data>
 		<key>Headers/DspFeedAdView.h</key>
 		<data>
@@ -151,15 +155,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/DSPDeviceInfo.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YaPmQDvk3LpNZYjEqPLqXGmzQ44=
+			</data>
+			<key>hash2</key>
+			<data>
+			pP4u5ZICkTAOCtR/8FhkDkkrZV42IISjmNYhndUufwU=
+			</data>
+		</dict>
 		<key>Headers/DSPSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GzJtayW21eYlR93rRbArgQ147Nk=
+			UrTakq1GzbmQVSR27IRfhTgZNOI=
 			</data>
 			<key>hash2</key>
 			<data>
-			arzIPoEossmtxjjJ8KET4sEu3ppXYyjzK7HwaFzqos4=
+			Ew7ZbAKSWSZTfG5QHvH2DGs+TIdLU5biFGw99ugdnyA=
 			</data>
 		</dict>
 		<key>Headers/DSPSDKConfig.h</key>
@@ -188,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T2wfDq9GQYwftnqSnAXIb9Oeb5M=
+			KybU0/Sf37MB2u3hYpwbLVGIVpE=
 			</data>
 			<key>hash2</key>
 			<data>
-			pjev8yMpnXgeABekWqLvC5iwtdQAUbZkxxbS7DfRqig=
+			XOB4kAT4zXeHI0kWsBUW2RVIOd4fafMmZuLRno862dg=
 			</data>
 		</dict>
 		<key>Headers/DspAdAction.h</key>
@@ -254,11 +269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mPx5dp7/kdh5M7RHfm0ul8yBGWo=
+			dYK1EI1u5cnGYUn83OLuS1/PBCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZO9YYFaNS2O+2UZiZ+V6X+yJYz9s2W7627pQw1DBJ3c=
+			kErUG9aSFLWZPH+qw4mfGc2AO7lRbtGi2KQfKRb2sx0=
 			</data>
 		</dict>
 		<key>Headers/DspBannerAd.h</key>
@@ -287,11 +302,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lsyToi1sJGKAdf9vtnQSmSa3RXg=
+			so5mY/73UVp3wkUN+OTHvlCbKW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			TUKSH/Kj4dOONTppPh+SOKiKQNoVDmoJjAx5ZXATh8s=
+			2F+zQ0rUAbXP970j4qqOVFAvMyIQg0LDYZClkhBC8Lg=
 			</data>
 		</dict>
 		<key>Headers/DspFeedAdView.h</key>
