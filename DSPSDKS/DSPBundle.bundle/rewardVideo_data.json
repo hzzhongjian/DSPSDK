@@ -17,6 +17,7 @@
     "logo": "",
     "image": "",
     "title": "今日红包待领取",
+    "is_award": true,
     "card_info": {
         "title_size": 16,
         "desc_color": "#000000",
@@ -28,7 +29,7 @@
         "image_log": "",
         "desc": "今日红包限时领取！"
     },
-    "areaEnable": false,
+    "area_enable": false,
     "ad_item_id": "local-default",
     "ad_id": "",
     "click_action": {
