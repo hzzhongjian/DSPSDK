@@ -9,6 +9,8 @@
 #import <DSPSDK/DspAdItem.h>
 #import <DSPSDK/DspAdTypes.h>
 #import <UIKit/UIKit.h>
+
+
 NS_ASSUME_NONNULL_BEGIN
 @class DspAd;
 @protocol DspAdDelegate <NSObject>
@@ -55,6 +57,22 @@ NS_ASSUME_NONNULL_BEGIN
  *  针对本次曝光的媒体期望扣费，常用扣费逻辑包括一价扣费与二价扣费，当采用一价扣费时，胜者出价即为本次扣费价格；当采用二价扣费时，第二名出价为本次扣费价格.
  */
 - (void)setBidEcpm:(NSInteger)ecpm;
+
+/**
+ 竞价失败之后调用
+ lossCode竞价失败原因(枚举):
+ 1001竞争力不足，如不是本次竞价的最高出价方，可上报此竟败原因
+ 1002 无广告回包，如本次竞价中未返回广告，可上报此竞败原因
+ 1003 请求超时，可上报此竞败原因
+ 1004 有广告回包但未参与竞价
+ 1005 其他(有回包)
+ winPrice竞胜者出价，单位为分
+ adnType 竞胜者平台，跟 pm type 保持一致
+ */
+- (void)biddingLoss:(NSInteger)lossCode
+           winPrice:(NSInteger)winPrice
+            adnType:(NSInteger)adnType;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -16,6 +16,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,weak) id<DspViewDelegate> delegate;
 
 //-(BOOL) isShowingOnKeyWindow;
+
+@property (nonatomic, assign) NSTimeInterval click_up_ms;
+
+@property (nonatomic, assign) NSTimeInterval material_down_fin_ms;
+
+@property (nonatomic, assign) NSInteger dpl_fail_reason;
+
+- (NSDictionary *)reportParams;
+
 @end
 
 NS_ASSUME_NONNULL_END
