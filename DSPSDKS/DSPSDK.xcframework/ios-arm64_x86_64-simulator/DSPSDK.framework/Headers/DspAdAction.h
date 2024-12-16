@@ -31,7 +31,9 @@ extern NSString * _Nonnull  const Action_Wechat_mini ;
 @property(nonatomic,copy) NSString *mini_appid;
 ///微信小程序
 @property(nonatomic,copy) NSString *wechat_appid;
+/// 跳转小程序的原始id
 @property(nonatomic,copy) NSString *wechat_mini_id;
+/// 跳转小程序的path
 @property(nonatomic,copy) NSString *wechat_mini_path;
 @property(nonatomic,copy) NSString *ios_universal_link;
 @end
