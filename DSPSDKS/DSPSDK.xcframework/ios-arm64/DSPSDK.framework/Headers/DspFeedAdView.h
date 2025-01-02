@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(void) render;
 - (void)setBidEcpm:(NSInteger)ecpm;
 
+- (void)setBidEcpm:(NSInteger)ecpm highestLossEcpm:(NSInteger)highestLossEcpm;
+
 - (NSInteger)getEcpm;
 @end
 
