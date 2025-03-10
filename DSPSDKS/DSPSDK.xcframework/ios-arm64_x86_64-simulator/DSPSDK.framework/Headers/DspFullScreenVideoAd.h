@@ -9,8 +9,11 @@
 #import <DSPSDK/DSPSDKEnum.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 @class DspFullScreenVideoAd;
+
 @protocol DspFullScreenVideoAdDelegate <DspAdDelegate>
+
 @optional
 //广告加载成功
 //- (void)dspFullScreenVideoAdDidLoad:(DspFullScreenVideoAd *)ad;
@@ -43,10 +46,13 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface DspFullScreenVideoAd : DspAd
+
 //- (void)loadAd;
+
 @property(nonatomic,weak) id<DspFullScreenVideoAdDelegate> delegate;
 
 - (void)presentFullScreenVideoAdFromRootViewController:(UIViewController *)viewController;
+
 @end
 
 NS_ASSUME_NONNULL_END

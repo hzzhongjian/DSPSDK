@@ -7,9 +7,11 @@
 
 #import <DSPSDK/DspAd.h>
 #import <DSPSDK/DspBannerView.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 @class DspBannerAd;
+
 @protocol DspBannerAdDelegate <DspAdDelegate>
 
 /*
@@ -32,15 +34,21 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)bannerAdDidCloseOtherController:(DspBannerAd *)dspBannerAd;
 
-- (void) bannerAdDidFail:(DspBannerAd*) dspBannerAd error:(NSError * __nullable)error;
+- (void)bannerAdDidFail:(DspBannerAd *)dspBannerAd error:(NSError * __nullable)error;
 
 @end
 
+
 @interface DspBannerAd : DspAd
+
 @property(nonatomic,weak) id<DspBannerAdDelegate> delegate;
-@property(nonatomic,strong,readonly) DspBannerView  *bannerView;
-@property(nonatomic,assign) CGSize  size;
-@property(nonatomic,assign) NSInteger  interval;
+
+@property(nonatomic,strong,readonly) DspBannerView *bannerView;
+
+@property(nonatomic,assign) CGSize size;
+
+@property(nonatomic,assign) NSInteger interval;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -11,25 +11,31 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class DspSplashView;
-@protocol DspSplashViewDelegate <DspViewDelegate>
--(void) dspSplashViewCountDownEnd:(DspSplashView*) dspSplashView;
-@optional
 
+@protocol DspSplashViewDelegate <DspViewDelegate>
+
+- (void)dspSplashViewCountDownEnd:(DspSplashView *)dspSplashView;
+
+@optional
 
 
 @end
 
+
 @interface DspSplashView : DspView
 
-@property(nonatomic,copy) NSString *imageUrl;
-@property(nonatomic,assign) NSInteger shkipTimes;
+@property (nonatomic, copy) NSString *imageUrl;
 
-@property(nonatomic,assign) BOOL area_enable;
-@property(nonatomic,copy) NSString *shake_power;
-@property(nonatomic,weak) id<DspSplashViewDelegate> delegate;
+@property (nonatomic, assign) NSInteger shkipTimes;
 
-#warning show方法统一，放到协议中
-#warning 但是splash没有show方法，媒体直接addsubView操作。
+@property (nonatomic, assign) BOOL area_enable;
+
+@property (nonatomic, copy) NSString *shake_power;
+
+@property (nonatomic, assign) BOOL falling;
+
+@property (nonatomic, weak) id <DspSplashViewDelegate> delegate;
+
 @end
 
 NS_ASSUME_NONNULL_END

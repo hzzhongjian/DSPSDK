@@ -7,13 +7,16 @@
 
 #import <DSPSDK/DspAd.h>
 #import <DSPSDK/DspSplashView.h>
+
 NS_ASSUME_NONNULL_BEGIN
+
 @class DspSplashAd;
+
 @protocol DspSplashAdDelegate <DspAdDelegate>
 
 
 //开屏广告成功展示
--(void)dspSplashAdSuccessPresentScreen:(DspSplashAd *)dspSplashAd;
+- (void)dspSplashAdSuccessPresentScreen:(DspSplashAd *)dspSplashAd;
 
 //开屏广告点击回调
 - (void)dspSplashAdClicked:(DspSplashAd *)dspSplashAd;
@@ -36,11 +39,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DspSplashAd : DspAd
 
-@property(nonatomic,weak) id<DspSplashAdDelegate> delegate;
+@property(nonatomic, weak) id<DspSplashAdDelegate> delegate;
 
-@property(nonatomic,readonly,strong) DspSplashView *splashView;
+@property(nonatomic, readonly, strong) DspSplashView *splashView;
 
-@property(nonatomic,assign)BOOL hotspotButton;
+@property(nonatomic, assign)BOOL hotspotButton;
 @end
 
 NS_ASSUME_NONNULL_END

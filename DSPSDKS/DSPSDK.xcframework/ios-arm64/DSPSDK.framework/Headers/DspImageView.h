@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface DspImageView : UIImageView
+
 - (void)dsp_setImageWithURLStr:(NSString *)urlStr;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
+
+
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
@@ -17,6 +19,7 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 };
 
 @interface DSPSDKConfig : NSObject
+
 
 + (instancetype)shared;
 
@@ -36,18 +39,26 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 
 
 @property (nonatomic, assign) DSPAdSDKLogLevel level;
+
 @property(nonatomic,copy) NSString *token;
+
 @property(nonatomic,readonly) NSString *xtoken;
+
 @property(nonatomic,copy) NSString *app_id;
+
 @property(nonatomic,copy) NSString *app_id_zj;
+
 ///数字版本号
 @property(nonatomic) NSInteger version_code;
+
 ///版本号
 @property (nonatomic, copy, readonly) NSString *sdk_ver;
+
 @property (nonatomic, copy, readonly) NSString *sdk_ver_zj;
+
 @property (strong, nonatomic) CLLocation *location;
 
-
+@property (nonatomic, strong, readonly) NSString *userAgent;
 
 @property (nonatomic, copy) NSString *wx_app_id;
 

@@ -9,13 +9,18 @@
 #import <DSPSDK/DSPSDKEnum.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 @class DspFeedFullVideoView;
+
 @protocol DspFeedFullVideoViewDelegate <DspViewDelegate>
 
--(void) feedFullVideoViewRenderSuccess:(DspFeedFullVideoView*) dspFeedFullVideoView;
--(void) feedFullVideoViewRenderFail:(DspFeedFullVideoView*) dspFeedFullVideoView error:(NSError*) error;
--(void) feedFullVideoViewStateDidChanged:(DspFeedFullVideoView*) adView state:(DSPMediaPlayerStatus)playerState;
--(void) feedFullVideoViewPlayerDidPlayFinish:(DspFeedFullVideoView*) adView;
+- (void)feedFullVideoViewRenderSuccess:(DspFeedFullVideoView *) dspFeedFullVideoView;
+
+- (void)feedFullVideoViewRenderFail:(DspFeedFullVideoView *)dspFeedFullVideoView error:(NSError *)error;
+
+- (void)feedFullVideoViewStateDidChanged:(DspFeedFullVideoView *)adView state:(DSPMediaPlayerStatus)playerState;
+
+- (void)feedFullVideoViewPlayerDidPlayFinish:(DspFeedFullVideoView *)adView;
 
 @end
 

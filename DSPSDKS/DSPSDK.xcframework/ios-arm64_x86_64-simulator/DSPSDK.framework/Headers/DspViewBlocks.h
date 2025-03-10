@@ -7,6 +7,7 @@
 
 #ifndef DspViewBlocks_h
 #define DspViewBlocks_h
+
 typedef void(^ClickReportFinishedBlk)(id responseObject, DspAdItem *blkAdItem);
 
 typedef void(^ClickAction)( DspAdItem * _Nullable blkAdItem);

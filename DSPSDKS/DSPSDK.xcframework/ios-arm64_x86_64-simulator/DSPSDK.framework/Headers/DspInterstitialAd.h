@@ -7,8 +7,11 @@
 
 #import <DSPSDK/DspAd.h>
 #import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
+
 @class DspInterstitialAd;
+
 @protocol DspInterstitialAdDelegate <DspAdDelegate>
 
 - (void) dspInterstitialAdDidPresentScreen:(DspInterstitialAd*) dspInterstitialAd;
@@ -23,10 +26,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) dspInterstitialAdDidFail:(DspInterstitialAd*) dspInterstitialAd error:(NSError * __nullable)error;
 
 @end
+
 @interface DspInterstitialAd : DspAd
 
-@property(nonatomic,weak) id<DspInterstitialAdDelegate> delegate;
--(void)presentAdFromRootViewController:(UIViewController*)  viewController;
+@property(nonatomic, weak) id<DspInterstitialAdDelegate> delegate;
+
+- (void)presentAdFromRootViewController:(UIViewController*)viewController;
+
 @end
 
 NS_ASSUME_NONNULL_END

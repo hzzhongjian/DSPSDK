@@ -38,8 +38,11 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DspFeedFullVideoAd : DspAd
 
 @property(nonatomic,weak) id<DspFeedFullVideoAdDelegate> delegate;
-@property(nonatomic,strong,readonly) NSMutableArray  *views;
-@property(nonatomic,assign) CGSize  adSize;
+
+@property(nonatomic,strong,readonly) NSMutableArray *views;
+
+@property(nonatomic,assign) CGSize adSize;
+
 @end
 
 NS_ASSUME_NONNULL_END

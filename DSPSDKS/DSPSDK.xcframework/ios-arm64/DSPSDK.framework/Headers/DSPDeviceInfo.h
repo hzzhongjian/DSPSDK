@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
+
 typedef NS_ENUM(NSInteger, DSPAPPSTATUS){
     //  1 未安装
     //  2 已安装但版本号过低 (安卓)
@@ -23,14 +25,19 @@ typedef NS_ENUM(NSInteger, DSPAPPSTATUS){
 };
 
 @interface DSPDeviceInfo : NSObject
-+(NSDictionary*) Info;
+
++ (NSDictionary *)Info;
+
 + (NSString *)UUID;
+
 + (NSString *)removeUUID;
 
 /// 以@{<NSString*> : <NSNumber*>}的形式返回所需app的安装状态，需媒体根据文档配置好LSApplicationQueriesSchemes
-+(NSDictionary *)shareAppsStatus;
++ (NSDictionary *)shareAppsStatus;
+
 /// 将shareAppsStatus以@{@"type":app_name,@"inst_status": app_atatus}的json形式返回，给接口用
-+(NSString *)shareAppsStatusJsonString;
++ (NSString *)shareAppsStatusJsonString;
+
 @end
 
 NS_ASSUME_NONNULL_END

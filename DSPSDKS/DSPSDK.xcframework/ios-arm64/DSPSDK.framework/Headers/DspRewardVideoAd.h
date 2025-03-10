@@ -8,7 +8,9 @@
 #import <DSPSDK/DspAd.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 @class DspRewardVideoAd;
+
 @protocol DspRewardVideoAdProviderDelegate <DspAdDelegate>
 
 - (void)dspRewardVideoAdVideoDidLoad:(DspRewardVideoAd *)dspRewardVideoAd;
@@ -28,11 +30,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)dspRewardVideoAd:(DspRewardVideoAd *)dspRewardVideoAd displayFailWithError:(nullable NSError *)error;
 
 @end
-@interface DspRewardVideoAd : DspAd
-@property(nonatomic,weak) id<DspRewardVideoAdProviderDelegate> delegate;
-- (void) showAdInViewController:(UIViewController *)viewController;
 
-@property (nonatomic,assign)BOOL videoMuted;
+@interface DspRewardVideoAd : DspAd
+
+@property(nonatomic, weak) id<DspRewardVideoAdProviderDelegate> delegate;
+
+- (void)showAdInViewController:(UIViewController *)viewController;
+
+@property (nonatomic, assign)BOOL videoMuted;
+
 @end
 
 NS_ASSUME_NONNULL_END

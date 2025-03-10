@@ -9,44 +9,69 @@
 #import <DSPSDK/DspAdItem.h>
 #import <DSPSDK/DspAdTypes.h>
 #import <UIKit/UIKit.h>
-
+#import <DSPSDK/DspConstant.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 @class DspAd;
+
 @protocol DspAdDelegate <NSObject>
 
 @optional
--(void) dspAdLoadSuccessful:(DspAd*) dspAd;
--(void) dspAdLoadFail:(DspAd*) dspAd error:(NSError*) error;
--(void) dspAdDetailClosed:(DspAd*) dspAd adView:(UIView*) adView;
+
+- (void)dspAdLoadSuccessful:(DspAd *)dspAd;
+
+- (void)dspAdLoadFail:(DspAd *)dspAd error:(NSError *)error;
+
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView;
 
 @end
 
 @interface DspAd : NSObject
 
-@property(nonatomic,copy) NSString *zjad_id;
-@property(nonatomic,copy) NSString *trade_id;
-@property(nonatomic,copy) NSString *ad_id;
-@property(nonatomic,copy) NSString *ad_type; // 广告类型
-@property(nonatomic,copy) NSString *lv_url; // 设置兜底视频
-@property(nonatomic,copy) NSString *lv_sd; // 跳过的时间
-@property(nonatomic,copy) NSString *shake_power; // 摇一摇
+@property(nonatomic, copy) NSString *zjad_id;
 
-@property(nonatomic,weak) UIViewController* rootViewController;
+@property(nonatomic, copy) NSString *trade_id;
 
+@property(nonatomic, copy) NSString *ad_id;
 
-@property(nonatomic,weak) id<DspAdDelegate> delegate;
+@property(nonatomic, copy) NSString *ad_type; // 广告类型
 
--(void) loadAdDate:(nullable NSDictionary*) params;
+@property(nonatomic, copy) NSString *lv_url; // 设置兜底视频
 
--(void) loadAdDataComplete:(NSArray<DspAdItem*>*) adItems;
--(void) loadAdDataErrorCode:(NSInteger) code msg:(NSString*) msg;
+@property(nonatomic, copy) NSString *lv_sd; // 跳过的时间
 
--(void) clickAction:(DspAdItem*) adItem response:(nullable NSDictionary *)response;
--(void) clickAction:(DspAdItem*) adItem response:(nullable NSDictionary *)response rootViewController:(nullable UIViewController*) rootViewController;
+@property(nonatomic, copy) NSString *shake_power; // 摇一摇
 
--(void) dspAdDetailClosed:(DspAdItem*) adItem;
--(void) excuteDspAdDetailClosedWithView:(nullable UIView*) adView;
+// 是否禁止掉落动画，如果值大于0就开启，否则关闭
+@property (nonatomic, assign) NSInteger falling;
+
+// 设置红包雨效果展示的概率
+@property (nonatomic, copy) NSString *falling_rate;
+
+// 落地页点击关闭按钮后，关闭所有的页面
+// 目前仅支持插屏和激励视频
+@property (nonatomic, assign) BOOL one_click_close_landing_page;
+
+@property(nonatomic, weak) UIViewController *rootViewController;
+
+@property(nonatomic, weak) id <DspAdDelegate> delegate;
+
+- (void)loadAdDate:(nullable NSDictionary*)params;
+
+- (void)loadAdDataComplete:(NSArray<DspAdItem *>*)adItems;
+
+- (void)loadAdDataErrorCode:(NSInteger)code msg:(NSString*)msg;
+
+- (void)clickAction:(DspAdItem *)adItem response:(nullable NSDictionary *)response;
+
+- (void)clickAction:(DspAdItem *)adItem response:(nullable NSDictionary *)response rootViewController:(nullable UIViewController*)rootViewController;
+
+- (void)dspAdDetailDidShow:(DspAdItem *)adItem;
+
+- (void)dspAdDetailClosed:(DspAdItem *)adItem;
+
+- (void)excuteDspAdDetailClosedWithView:(nullable UIView*)adView;
 
 /// 只有广告加载成功后，才能获取到ECPM
 - (NSInteger)getEcpm;
@@ -80,6 +105,19 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)biddingLoss:(NSInteger)lossCode
            winPrice:(NSInteger)winPrice
             adnType:(NSInteger)adnType;
+
+// 用来标识各种广告类型是否添加落地页一键关闭的通知
+@property (nonatomic, assign) BOOL isAddOneKeyCloseAllPageNotification;
+
+// 用来添加落地页一键关闭的通知
+- (void)addOneKeyCloseAllPageNotification;
+
+// 用来移除落地页一键关闭的通知
+- (void)removeOneKeyCloseAllPageNotification;
+
+// 用来处理落地页一键关闭的操作
+- (void)oneKeyCloseAllPage:(NSNotification *)sender;
+
 
 @end
 

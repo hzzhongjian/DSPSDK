@@ -10,11 +10,15 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class DspRewardVideoView;
+
 @protocol DspRewardViewDelegate <DspViewDelegate>
 
--(void) dspRewardVideoView:(DspView*) dspVideoView playProgressChanged:(NSTimeInterval) times;
--(void) dspRewardVideoViewPlayFinish:(DspRewardVideoView*) dspView;
--(void) dspRewardVideoView:(DspView*) dspVideoView displayFailWithError:(nullable NSError *)error;
+- (void)dspRewardVideoView:(DspView *)dspVideoView playProgressChanged:(NSTimeInterval)times;
+
+- (void)dspRewardVideoViewPlayFinish:(DspRewardVideoView *)dspView;
+
+- (void)dspRewardVideoView:(DspView *)dspVideoView displayFailWithError:(nullable NSError *)error;
+
 @end
 
 NS_ASSUME_NONNULL_END

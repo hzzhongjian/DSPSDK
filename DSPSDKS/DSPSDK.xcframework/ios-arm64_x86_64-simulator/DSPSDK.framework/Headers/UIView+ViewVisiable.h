@@ -10,8 +10,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (ViewVisiable)
+
 - (BOOL)isViewVisible;
+
 - (BOOL)isSubViewVisible;
+
 @end
 
 NS_ASSUME_NONNULL_END
