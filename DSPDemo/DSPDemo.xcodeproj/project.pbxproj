@@ -11,6 +11,7 @@
 		22F95E00C79E2E48D109DA4D /* Pods_DSPDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662649A9036C957401F6B749 /* Pods_DSPDemoTests.framework */; };
 		487D037D90C87B023356E5EA /* Pods_DSPDemo_DSPDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135440825AD368667FBD620B /* Pods_DSPDemo_DSPDemoUITests.framework */; };
 		AB1C592E2B3BC80A0032D7CE /* DSPSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */; };
+		AB4024C32D89614100160DF6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4024C22D89614100160DF6 /* WebKit.framework */; };
 		AB6DC7AD2B32F21400CDDCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6DC7AB2B32F21400CDDCD4 /* Main.storyboard */; };
 		AB6DC7AF2B32F21500CDDCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6DC7AE2B32F21500CDDCD4 /* Assets.xcassets */; };
 		AB6DC7B22B32F21500CDDCD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6DC7B02B32F21500CDDCD4 /* LaunchScreen.storyboard */; };
@@ -94,6 +95,7 @@
 		87160C07B09D139029D78FDB /* Pods-DSPDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DSPDemoTests/Pods-DSPDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		971A812DDB6CD286743FB4C0 /* Pods-DSPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSPDemo.release.xcconfig"; path = "Target Support Files/Pods-DSPDemo/Pods-DSPDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DSPSDK.podspec; path = ../DSPSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB4024C22D89614100160DF6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		AB6DC79F2B32F21400CDDCD4 /* DSPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6DC7AC2B32F21400CDDCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB6DC7AE2B32F21500CDDCD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4024C32D89614100160DF6 /* WebKit.framework in Frameworks */,
 				1402E5EA9C954573084E6F7A /* Pods_DSPDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +225,7 @@
 		AB1027152B3431ED00FF3E44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB4024C22D89614100160DF6 /* WebKit.framework */,
 				4CCF7C2957C9C72AF3FE6AB1 /* Pods_DSPDemo.framework */,
 				135440825AD368667FBD620B /* Pods_DSPDemo_DSPDemoUITests.framework */,
 				662649A9036C957401F6B749 /* Pods_DSPDemoTests.framework */,
