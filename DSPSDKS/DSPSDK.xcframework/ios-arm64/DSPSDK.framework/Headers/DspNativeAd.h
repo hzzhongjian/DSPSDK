@@ -129,6 +129,7 @@ typedef NS_ENUM(NSInteger, DspAdMaterialType) {
 
 - (NSInteger)getEcpm;
 
+- (NSDictionary *)getExtraInfo;
 
 @end
 

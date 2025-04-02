@@ -118,6 +118,10 @@ NS_ASSUME_NONNULL_BEGIN
 // 用来处理落地页一键关闭的操作
 - (void)oneKeyCloseAllPage:(NSNotification *)sender;
 
+/**
+ * 可以获取request_id的值
+ */
+- (NSDictionary *)getExtraInfo;
 
 @end
 
