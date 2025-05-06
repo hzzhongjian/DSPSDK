@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)showAdInViewController:(UIViewController *)viewController;
 
-@property (nonatomic, assign)BOOL videoMuted;
+@property (nonatomic, assign) BOOL videoMuted;
 
 @end
 

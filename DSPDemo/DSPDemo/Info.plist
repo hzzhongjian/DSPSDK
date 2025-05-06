@@ -17,6 +17,7 @@
 		<string>snssdk1128</string>
 		<string>cydia</string>
 		<string>kwai</string>
+		<string>alipay</string>
 	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>

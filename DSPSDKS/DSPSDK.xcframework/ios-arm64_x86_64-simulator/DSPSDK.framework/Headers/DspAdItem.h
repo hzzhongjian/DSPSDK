@@ -106,6 +106,13 @@ typedef NS_ENUM(NSInteger, DspMediaType){
 /// 上报地址
 @property (nonatomic, strong) DspEventUrls *event_urls;
 
+/// 用于用户上报透传参数
+@property (nonatomic, strong) NSString *extra;
+
+/// 用户user_id
+@property (nonatomic, strong) NSString *user_id;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -49,6 +49,12 @@ NS_ASSUME_NONNULL_BEGIN
 // 设置红包雨效果展示的概率
 @property (nonatomic, copy) NSString *falling_rate;
 
+/// 激励视频要传
+@property (nonatomic, strong) NSString *user_id;
+
+/// 激励视频透传参数
+@property (nonatomic, strong) NSString *extra;
+
 // 落地页点击关闭按钮后，关闭所有的页面
 // 目前仅支持插屏和激励视频
 @property (nonatomic, assign) BOOL one_click_close_landing_page;

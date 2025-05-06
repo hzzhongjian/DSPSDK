@@ -68,6 +68,9 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 
 @property (nonatomic, assign) BOOL disable_sdk_assetion;
 
+// 设置是否是debug/release
+@property (nonatomic, assign) BOOL is_debug;
+
 @end
 
 NS_ASSUME_NONNULL_END
