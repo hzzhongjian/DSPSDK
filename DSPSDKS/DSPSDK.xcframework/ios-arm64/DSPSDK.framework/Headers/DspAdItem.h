@@ -11,7 +11,7 @@
 #import <DSPSDK/DspAdAction.h>
 #import <DSPSDK/DspAdLayout.h>
 #import <DSPSDK/DspEventUrls.h>
-
+#import <DSPSDK/DspAdSource.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -112,6 +112,7 @@ typedef NS_ENUM(NSInteger, DspMediaType){
 /// 用户user_id
 @property (nonatomic, strong) NSString *user_id;
 
+@property (nonatomic, strong) DspAdSource *source;
 
 @end
 

@@ -13,7 +13,7 @@ target 'DSPDemo' do
   end
 
   # Pods for DSPDemo
-   pod 'DSPSDK', :path => '../'
+   pod 'DSPSDK'#, :path => '../'
    pod 'MKConsole'#log工具，项目中无需引入
   target 'DSPDemoTests' do
     inherit! :search_paths

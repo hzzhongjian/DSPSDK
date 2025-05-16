@@ -23,12 +23,7 @@
                                 @"appName": @"IOSDEMO",
                                 @"universal_link": @"123123123123",
                                 @"wx_app_id": @"321321321321",
-                                @"can_read_oaid": @0,
-                                @"can_init": @0,
-                                @"can_cache_video": @1,
-                                @"domain_list_reward": @"https://incentive.8ziben.com;http://124.220.49.82;",
-                                @"domain_list_zj_report": @"https://incentive.8ziben.com;http://124.220.49.82;",
-                                @"domain_list_dsp": @"https://api-dsp.8ziben.com;http://dsp-test.8ziben.com;"}];
+                                @"can_cache_video": @1}];
     NSLog(@"%@",[DSPSDKConfig SDKVersion]);
     return YES;
 }

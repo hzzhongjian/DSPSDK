@@ -19,6 +19,7 @@
 		AB6DC7BF2B32F21500CDDCD4 /* DSPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7BE2B32F21500CDDCD4 /* DSPDemoTests.m */; };
 		AB6DC7C92B32F21500CDDCD4 /* DSPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7C82B32F21500CDDCD4 /* DSPDemoUITests.m */; };
 		AB6DC7CB2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7CA2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m */; };
+		AB95DDBA2DD5E605005A056E /* NativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB95DDB92DD5E605005A056E /* NativeAdViewController.m */; };
 		ABAB8CCB2C09CD130007D672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C782C09CD130007D672 /* ViewController.m */; };
 		ABAB8CCC2C09CD130007D672 /* UIColor+MKRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C7D2C09CD130007D672 /* UIColor+MKRGB.m */; };
 		ABAB8CCD2C09CD130007D672 /* UITextField+FunctionExpansion.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C7F2C09CD130007D672 /* UITextField+FunctionExpansion.m */; };
@@ -107,6 +108,8 @@
 		AB6DC7C42B32F21500CDDCD4 /* DSPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6DC7C82B32F21500CDDCD4 /* DSPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDemoUITests.m; sourceTree = "<group>"; };
 		AB6DC7CA2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AB95DDB82DD5E605005A056E /* NativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdViewController.h; sourceTree = "<group>"; };
+		AB95DDB92DD5E605005A056E /* NativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAdViewController.m; sourceTree = "<group>"; };
 		ABAB8C782C09CD130007D672 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABAB8C7A2C09CD130007D672 /* MKTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTool.h; sourceTree = "<group>"; };
 		ABAB8C7C2C09CD130007D672 /* UIColor+MKRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MKRGB.h"; sourceTree = "<group>"; };
@@ -406,6 +409,8 @@
 		ABAB8CAF2C09CD130007D672 /* AdsViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AB95DDB82DD5E605005A056E /* NativeAdViewController.h */,
+				AB95DDB92DD5E605005A056E /* NativeAdViewController.m */,
 				ABAB8CB02C09CD130007D672 /* SplashViewController.h */,
 				ABAB8CB12C09CD130007D672 /* FullScreenVideoViewController.m */,
 				ABAB8CB22C09CD130007D672 /* IntersitialViewController.h */,
@@ -727,6 +732,7 @@
 				ABAB8CD12C09CD130007D672 /* UILabel+FunctionExpansion.m in Sources */,
 				ABAB8CD92C09CD130007D672 /* NSString+LocalizedString.m in Sources */,
 				ABAB8CDD2C09CD130007D672 /* NSNull+Exist.m in Sources */,
+				AB95DDBA2DD5E605005A056E /* NativeAdViewController.m in Sources */,
 				ABAB8CE32C09CD130007D672 /* BaseViewController.m in Sources */,
 				ABAB8CE92C09CD130007D672 /* NativeExpressViewController.m in Sources */,
 				ABAB8CE22C09CD130007D672 /* FullScreenVideoViewController.m in Sources */,

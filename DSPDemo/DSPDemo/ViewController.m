@@ -14,6 +14,7 @@
 #import "FullScreenVideoViewController.h"
 #import "NativeExpressViewController.h"
 #import "BannerViewController.h"
+#import "NativeAdViewController.h"
 
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (nonatomic, strong) UICollectionView *collection;
@@ -146,6 +147,7 @@ ADTypeModel *ADTypeDic(NSString *title, NSString *imageName, NSString *VCClassNa
         [_dataArray addObject:ADTypeDic(@"全屏视频", @"ad_icon_splash", NSStringFromClass([FullScreenVideoViewController class]))];
         [_dataArray addObject:ADTypeDic(@"信息流", @"ad_icon_native_express", NSStringFromClass([NativeExpressViewController class]))];
         [_dataArray addObject:ADTypeDic(@"Banner", @"ad_icon_native_express", NSStringFromClass([BannerViewController class]))];
+        [_dataArray addObject:ADTypeDic(@"自渲染", @"ad_icon_native_express", NSStringFromClass([NativeAdViewController class]))];
 
 //                               @{@"title":@"开屏",@"imageName":@"ad_icon_splash",@"VCClassName":NSStringFromClass([SplashViewController class])}]];
     }

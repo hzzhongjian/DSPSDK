@@ -34,3 +34,4 @@ FOUNDATION_EXPORT const unsigned char DSPSDKVersionString[];
 #import <DSPSDK/DspReport.h>
 #import <DSPSDK/UIView+Twist.h>
 #import <DSPSDK/DspComplianceGuidanceView.h>
+#import <DSPSDK/DspAdSource.h>

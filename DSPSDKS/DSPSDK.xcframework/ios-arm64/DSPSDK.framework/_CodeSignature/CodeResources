@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/DSPSDK.h</key>
 		<data>
-		iB+oBLez+YFdM+ANQrxlMX6tq2I=
+		s9z8wu4NPz51xIvk0u/u6Pt5Bt8=
 		</data>
 		<key>Headers/DSPSDKConfig.h</key>
 		<data>
@@ -34,15 +34,19 @@
 		</data>
 		<key>Headers/DspAdItem.h</key>
 		<data>
-		TSR350BzHVZ1ezV20s44F+J25Ac=
+		UjFCBWMBwc/+J1wHpHQaSp/j9Go=
 		</data>
 		<key>Headers/DspAdLayout.h</key>
 		<data>
 		uaw1/osuI6BpoWhQ1Q/c5OnwFjA=
 		</data>
+		<key>Headers/DspAdSource.h</key>
+		<data>
+		g7IWxbcvRKiiXDH3DbcZdIp8hvc=
+		</data>
 		<key>Headers/DspAdTagView.h</key>
 		<data>
-		YY5iaCwwRC/5D7Qmb02nQeO3i9k=
+		98mRB2QnVZirKmyHuLMatZKqPls=
 		</data>
 		<key>Headers/DspAdTypes.h</key>
 		<data>
@@ -182,7 +186,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2xRdDxrW8yw6ANnPUIUCkhK9M7Y=
+		vlVtDPbJd8ajtSOhbhVct1+hgm0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,11 +214,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iB+oBLez+YFdM+ANQrxlMX6tq2I=
+			s9z8wu4NPz51xIvk0u/u6Pt5Bt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			1il9JUPG5374sfpVAxM9pPg/CXfuxU0alWR/kThBj3c=
+			pS9HPi3YdqiyuK47nTv12IU19OpEAJh1rqOVycLd4UA=
 			</data>
 		</dict>
 		<key>Headers/DSPSDKConfig.h</key>
@@ -276,11 +280,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TSR350BzHVZ1ezV20s44F+J25Ac=
+			UjFCBWMBwc/+J1wHpHQaSp/j9Go=
 			</data>
 			<key>hash2</key>
 			<data>
-			zXnTT2FzwXOprMivqa9A9gNMiMuyu5r4CnH6P00KJ8Y=
+			oDHtpIxm1Z5qHTm3YuBslC/z4g82OxfaQQB6BbuVm2c=
 			</data>
 		</dict>
 		<key>Headers/DspAdLayout.h</key>
@@ -294,15 +298,26 @@
 			FetOrcWFHL4/91bNPyK4JP7PVyWm19igBDMMuRX6J3w=
 			</data>
 		</dict>
+		<key>Headers/DspAdSource.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g7IWxbcvRKiiXDH3DbcZdIp8hvc=
+			</data>
+			<key>hash2</key>
+			<data>
+			vN/8alozhcKLKgnUzMfrzNgjGsqd/DOOQeWF2Z6yFWQ=
+			</data>
+		</dict>
 		<key>Headers/DspAdTagView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YY5iaCwwRC/5D7Qmb02nQeO3i9k=
+			98mRB2QnVZirKmyHuLMatZKqPls=
 			</data>
 			<key>hash2</key>
 			<data>
-			022Aa8Sl+J92T6WOhEFajcwvqsKOYbAr4s/qzyRAtsw=
+			+k9IQ7m5ksl9u+LA8n5Wj5Fh9HoNI6tq4XnBYm7NWD4=
 			</data>
 		</dict>
 		<key>Headers/DspAdTypes.h</key>

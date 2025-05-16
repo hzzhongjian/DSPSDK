@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DSPSDK/DspAdItem.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)create;
 
 - (void)styleClear;
+
+- (void)setAdLog:(DspAdItem *)adItem;
 
 @end
 
