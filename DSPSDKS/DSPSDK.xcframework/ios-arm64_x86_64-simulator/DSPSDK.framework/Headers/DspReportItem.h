@@ -15,8 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSDictionary *)getParamDic;
 
-- (NSDictionary *)getParamDic:(DspAdItem *)adItem;
-
 + (instancetype)create:(DspAdItem *)adItem 
                  event:(nullable NSString *)event;
 

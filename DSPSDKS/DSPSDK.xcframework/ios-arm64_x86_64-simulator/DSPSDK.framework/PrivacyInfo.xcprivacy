@@ -7,6 +7,8 @@
 	<key>NSPrivacyTrackingDomains</key>
 	<array>
 		<string>8ziben.com</string>
+		<string>fliduo.cn</string>
+		<string>jrongjie.com</string>
 	</array>
 	<key>NSPrivacyAccessedAPITypes</key>
 	<array>

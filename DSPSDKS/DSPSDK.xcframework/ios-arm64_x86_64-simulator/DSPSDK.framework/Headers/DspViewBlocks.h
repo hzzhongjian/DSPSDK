@@ -8,8 +8,8 @@
 #ifndef DspViewBlocks_h
 #define DspViewBlocks_h
 
-typedef void(^ClickReportFinishedBlk)(id responseObject, DspAdItem *blkAdItem);
+typedef void(^ClickReportFinishedBlk) (id responseObject, DspAdItem *blkAdItem);
 
-typedef void(^ClickAction)( DspAdItem * _Nullable blkAdItem);
+typedef void (^ClickAction) (DspAdItem * _Nullable blkAdItem);
 
 #endif /* DspViewBlocks_h */

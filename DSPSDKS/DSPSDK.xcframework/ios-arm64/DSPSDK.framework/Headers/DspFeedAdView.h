@@ -19,9 +19,9 @@ typedef NS_ENUM(NSInteger, DspFeedAdViewPlayerStatus) {
 
 @protocol DspFeedAdViewDelegate <DspViewDelegate>
 
--(void) feedAdViewRenderSuccess:(DspFeedAdView*) dspFeedAdView;
+- (void)feedAdViewRenderSuccess:(DspFeedAdView *)dspFeedAdView;
 
--(void) feedAdViewRenderFail:(DspFeedAdView *)dspFeedView error:(NSError *)error;
+- (void)feedAdViewRenderFail:(DspFeedAdView *)dspFeedView error:(NSError *)error;
 
 @optional
 
@@ -48,9 +48,9 @@ displayFailWithError:(NSError *_Nullable)error;
 // 设置视频播放是否静音
 @property (nonatomic, assign) BOOL videoMuted;
 
--(NSString *)identifier;
+- (NSString *)identifier;
 
--(void) render;
+- (void)render;
 
 - (void)setBidEcpm:(NSInteger)ecpm;
 

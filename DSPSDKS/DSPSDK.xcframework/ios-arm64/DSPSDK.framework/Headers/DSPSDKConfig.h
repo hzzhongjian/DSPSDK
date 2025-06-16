@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
-
+#import <DSPSDK/DspPrivacyProvider.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -40,13 +40,13 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 
 @property (nonatomic, assign) DSPAdSDKLogLevel level;
 
-@property(nonatomic,copy) NSString *token;
+@property(nonatomic, copy) NSString *token;
 
-@property(nonatomic,readonly) NSString *xtoken;
+@property(nonatomic, readonly) NSString *xtoken;
 
-@property(nonatomic,copy) NSString *app_id;
+@property(nonatomic, copy) NSString *app_id;
 
-@property(nonatomic,copy) NSString *app_id_zj;
+@property(nonatomic, copy) NSString *app_id_zj;
 
 ///数字版本号
 @property(nonatomic) NSInteger version_code;
@@ -70,6 +70,9 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 
 // 设置是否是debug/release
 @property (nonatomic, assign) BOOL is_debug;
+
+@property (nonatomic, strong) id <DspPrivacyProvider> privacyProvider;
+
 
 @end
 

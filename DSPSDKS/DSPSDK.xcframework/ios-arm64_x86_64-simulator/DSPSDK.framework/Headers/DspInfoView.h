@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) UIView *adView;
 
-@property(nonatomic,strong) DspAdItem *adItem;
+@property(nonatomic, strong) DspAdItem *adItem;
 
 @property(nonatomic, copy, nullable)ClickAction clickAction;
 //@property(nonatomic,copy)ClickReportFinishedBlk clickReportFinishedBlk;

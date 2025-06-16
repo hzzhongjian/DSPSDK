@@ -43,7 +43,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, readonly, strong) DspSplashView *splashView;
 
-@property(nonatomic, assign)BOOL hotspotButton;
+@property(nonatomic, assign) BOOL hotspotButton;
+
 @end
 
 NS_ASSUME_NONNULL_END

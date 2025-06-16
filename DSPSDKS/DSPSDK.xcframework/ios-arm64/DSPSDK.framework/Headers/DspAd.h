@@ -29,10 +29,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DspAd : NSObject
 
+/// 媒体id，即申请的AppId
 @property(nonatomic, copy) NSString *zjad_id;
 
 @property(nonatomic, copy) NSString *trade_id;
-
+/// 广告为ID
 @property(nonatomic, copy) NSString *ad_id;
 
 @property(nonatomic, copy) NSString *ad_type; // 广告类型

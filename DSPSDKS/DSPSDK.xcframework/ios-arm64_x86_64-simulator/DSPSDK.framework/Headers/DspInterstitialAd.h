@@ -22,14 +22,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void) dspInterstitialAdDidClose:(DspInterstitialAd*) dspInterstitialAd;
 
-
 - (void) dspInterstitialAdDidFail:(DspInterstitialAd*) dspInterstitialAd error:(NSError * __nullable)error;
 
 @end
 
 @interface DspInterstitialAd : DspAd
 
-@property(nonatomic, weak) id<DspInterstitialAdDelegate> delegate;
+@property(nonatomic, weak) id <DspInterstitialAdDelegate> delegate;
 
 - (void)presentAdFromRootViewController:(UIViewController*)viewController;
 

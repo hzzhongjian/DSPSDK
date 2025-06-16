@@ -26,10 +26,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DspFeedFullVideoView : DspVideoView
 
-@property(nonatomic,weak) UIViewController* rootViewController DEPRECATED_MSG_ATTRIBUTE("this api is deprecated in 1.0.1.0, just remove its call in the new version");;
+@property (nonatomic, weak) UIViewController *rootViewController DEPRECATED_MSG_ATTRIBUTE("this api is deprecated in 1.0.1.0, just remove its call in the new version");
 
--(void) render;
--(NSString *)identifier;
+- (void)render;
+
+- (NSString *)identifier;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -10,6 +10,10 @@
 #import <DSPSDK/UIView+ViewVisiable.h>
 #import <objc/message.h>
 
+/**
+ 扭一扭功能
+ */
+
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^TwistActionHandler)(double accelerameter, double x, double y, double z, NSError *error);
@@ -17,9 +21,9 @@ typedef void(^TwistActionHandler)(double accelerameter, double x, double y, doub
 
 @interface UIView (Twist)
 
-@property (strong, nonatomic,nullable) CMMotionManager *motionManager;
+@property (strong, nonatomic, nullable) CMMotionManager *motionManager;
 
-@property(nonatomic,strong) NSString *twist_power;
+@property(nonatomic, strong) NSString *twist_power;
 
 @property (assign, nonatomic) BOOL disableViewVisibleDetect;
 

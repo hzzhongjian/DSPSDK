@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DspRewardVideoAd : DspAd
 
-@property(nonatomic, weak) id<DspRewardVideoAdProviderDelegate> delegate;
+@property (nonatomic, weak) id <DspRewardVideoAdProviderDelegate> delegate;
 
 - (void)showAdInViewController:(UIViewController *)viewController;
 

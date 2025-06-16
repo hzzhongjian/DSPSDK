@@ -201,7 +201,7 @@
 
 - (void)dspNativeAdDidShow:(DspNativeAd *)nativeAd
 {
-    NSLog(@"===>>>%s==%@", __func__, nativeAd.getExtraInfo[@"request_id"]);
+//    NSLog(@"===>>>%s==%@", __func__, nativeAd.getExtraInfo[@"request_id"]);
 }
 
 - (void)dspNativeAdVideoReadyToPlay:(DspNativeAd *)nativeAd

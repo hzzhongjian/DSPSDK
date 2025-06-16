@@ -10,6 +10,7 @@
 #import <DSPSDK/DSPSDKEnum.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
 @class DspFeedFullVideoAd;
 
 
@@ -37,11 +38,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DspFeedFullVideoAd : DspAd
 
-@property(nonatomic,weak) id<DspFeedFullVideoAdDelegate> delegate;
+@property (nonatomic, weak) id <DspFeedFullVideoAdDelegate> delegate;
 
-@property(nonatomic,strong,readonly) NSMutableArray *views;
+@property (nonatomic, strong, readonly) NSMutableArray *views;
 
-@property(nonatomic,assign) CGSize adSize;
+@property (nonatomic, assign) CGSize adSize;
 
 @end
 

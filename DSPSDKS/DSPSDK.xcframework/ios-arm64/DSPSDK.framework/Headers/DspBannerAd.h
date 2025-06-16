@@ -34,6 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)bannerAdDidCloseOtherController:(DspBannerAd *)dspBannerAd;
 
+// 此方法暂时没有调用
 - (void)bannerAdDidFail:(DspBannerAd *)dspBannerAd error:(NSError * __nullable)error;
 
 @end
@@ -41,13 +42,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DspBannerAd : DspAd
 
-@property(nonatomic,weak) id<DspBannerAdDelegate> delegate;
+@property (nonatomic, weak) id <DspBannerAdDelegate> delegate;
 
-@property(nonatomic,strong,readonly) DspBannerView *bannerView;
+@property (nonatomic, strong, readonly) DspBannerView *bannerView;
 
-@property(nonatomic,assign) CGSize size;
+@property (nonatomic, assign) CGSize size;
 
-@property(nonatomic,assign) NSInteger interval;
+@property (nonatomic, assign) NSInteger interval;
 
 @end
 

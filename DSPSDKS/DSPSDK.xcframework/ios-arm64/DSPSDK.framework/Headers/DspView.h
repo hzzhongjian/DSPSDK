@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) DspAdItem *adItem;
 
-@property (nonatomic, weak) id<DspViewDelegate> delegate;
+@property (nonatomic, weak) id <DspViewDelegate> delegate;
 
 //-(BOOL) isShowingOnKeyWindow;
 
@@ -46,6 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 用户点击屏幕的位置，包含按下/松开的x，y值
 - (NSDictionary *)click_point;
 
+@property (nonatomic, assign) BOOL hasShow;
 
 @end
 
