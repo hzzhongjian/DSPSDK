@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/DSPSDK.h</key>
 		<data>
-		hOkWzedF0ND4nQ3QCxpqmHuNYGQ=
+		rXROJI5CNArvQBXGn32VKpf2W1o=
 		</data>
 		<key>Headers/DSPSDKConfig.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/DspAd.h</key>
 		<data>
-		ErPcKveMfMnxg7NYEzQzezi7Yig=
+		mklmURy/fJqojZQqRgAkJRCRU1g=
 		</data>
 		<key>Headers/DspAdAction.h</key>
 		<data>
@@ -176,6 +176,10 @@
 		<data>
 		bNy+J/w/MqEHDUjZOB9aZB7hr/k=
 		</data>
+		<key>Headers/UIImage+dspKit.h</key>
+		<data>
+		9o0Im+ED1X12GTNdCB7pokB/6jo=
+		</data>
 		<key>Headers/UIView+ShakeAction.h</key>
 		<data>
 		IEcuJLRqqzXnoowHzl5D/1YSVYU=
@@ -190,7 +194,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zCgoYAz5/h+Z6Eb0IwryUQJJCBc=
+		GVJoCnugSbDqI2Mrgy3NCi3apXQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -218,11 +222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hOkWzedF0ND4nQ3QCxpqmHuNYGQ=
+			rXROJI5CNArvQBXGn32VKpf2W1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			BX+amzGdE1qwmzVQhSB4xj/+UvOqdAe4wWgIaDcqWW8=
+			zbhn8WC2oP8csDtkC+ZHIVCei67nfES2eFZOSNHUpJ4=
 			</data>
 		</dict>
 		<key>Headers/DSPSDKConfig.h</key>
@@ -251,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ErPcKveMfMnxg7NYEzQzezi7Yig=
+			mklmURy/fJqojZQqRgAkJRCRU1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			+FVnwn3iU+eV/olo0afVuuoeT/rqi1IV26q0Gw9LCUE=
+			jnMtonNXJBQan8EezdAkW0IRcHa8Mk62J6rr3cQLamY=
 			</data>
 		</dict>
 		<key>Headers/DspAdAction.h</key>
@@ -674,6 +678,17 @@
 			<key>hash2</key>
 			<data>
 			w1iPUchCUy2Fp1F//s0hImzkNa5enqFiIyxAxBJmD/w=
+			</data>
+		</dict>
+		<key>Headers/UIImage+dspKit.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9o0Im+ED1X12GTNdCB7pokB/6jo=
+			</data>
+			<key>hash2</key>
+			<data>
+			A6tAUXIWQEDTp5A5XDz3bsCr769o/zK19lEIr6FMm9A=
 			</data>
 		</dict>
 		<key>Headers/UIView+ShakeAction.h</key>

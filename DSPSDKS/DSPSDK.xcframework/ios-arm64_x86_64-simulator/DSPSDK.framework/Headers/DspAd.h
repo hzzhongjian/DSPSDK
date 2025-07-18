@@ -56,6 +56,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 激励视频透传参数
 @property (nonatomic, strong) NSString *extra;
 
+/// caid json值
+@property (nonatomic, strong) NSString *caid_json;
+
 // 落地页点击关闭按钮后，关闭所有的页面
 // 目前仅支持插屏和激励视频
 @property (nonatomic, assign) BOOL one_click_close_landing_page;
