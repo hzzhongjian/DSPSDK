@@ -66,6 +66,10 @@ extern NSString * _Nonnull const Action_Wechat_mini;
 /// Universal Link 是 iOS9 推出的一项功能，使应用（微信，微博等）可以通过传统的HTTPS链接来启动APP
 @property (nonatomic, copy) NSString *ios_universal_link;
 
+/// h5类型
+/// webview 使用内部跳转，browser 使用外部浏览器跳转
+@property (nonnull, copy) NSString *h5_type;
+
 @end
 
 NS_ASSUME_NONNULL_END
