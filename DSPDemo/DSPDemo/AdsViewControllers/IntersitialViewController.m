@@ -31,6 +31,7 @@
         @"image_height":[NSNumber numberWithDouble:KScreenSize.height],
         @"image_width":[NSNumber numberWithDouble:KScreenSize.width]
     };
+    _dspInterstitialAd.rootViewController = self;
     [_dspInterstitialAd loadAdDate:params];
 }
 

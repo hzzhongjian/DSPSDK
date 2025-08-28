@@ -19,6 +19,7 @@
 		AB6DC7BF2B32F21500CDDCD4 /* DSPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7BE2B32F21500CDDCD4 /* DSPDemoTests.m */; };
 		AB6DC7C92B32F21500CDDCD4 /* DSPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7C82B32F21500CDDCD4 /* DSPDemoUITests.m */; };
 		AB6DC7CB2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6DC7CA2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m */; };
+		AB8F74CA2E600B8200DD57CB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB8F74C92E600B8200DD57CB /* README.md */; };
 		AB95DDBA2DD5E605005A056E /* NativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB95DDB92DD5E605005A056E /* NativeAdViewController.m */; };
 		ABAB8CCB2C09CD130007D672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C782C09CD130007D672 /* ViewController.m */; };
 		ABAB8CCC2C09CD130007D672 /* UIColor+MKRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAB8C7D2C09CD130007D672 /* UIColor+MKRGB.m */; };
@@ -108,6 +109,7 @@
 		AB6DC7C42B32F21500CDDCD4 /* DSPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6DC7C82B32F21500CDDCD4 /* DSPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDemoUITests.m; sourceTree = "<group>"; };
 		AB6DC7CA2B32F21500CDDCD4 /* DSPDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSPDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AB8F74C92E600B8200DD57CB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AB95DDB82DD5E605005A056E /* NativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdViewController.h; sourceTree = "<group>"; };
 		AB95DDB92DD5E605005A056E /* NativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAdViewController.m; sourceTree = "<group>"; };
 		ABAB8C782C09CD130007D672 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 		AB6DC7962B32F21400CDDCD4 = {
 			isa = PBXGroup;
 			children = (
+				AB8F74C92E600B8200DD57CB /* README.md */,
 				AB1C592D2B3BC80A0032D7CE /* DSPSDK.podspec */,
 				AB6DC7A12B32F21400CDDCD4 /* DSPDemo */,
 				AB6DC7BD2B32F21500CDDCD4 /* DSPDemoTests */,
@@ -554,6 +557,7 @@
 				ABAB8CDF2C09CD130007D672 /* ADCell.xib in Resources */,
 				AB1C592E2B3BC80A0032D7CE /* DSPSDK.podspec in Resources */,
 				AB6DC7B22B32F21500CDDCD4 /* LaunchScreen.storyboard in Resources */,
+				AB8F74CA2E600B8200DD57CB /* README.md in Resources */,
 				ABAB8CEC2C09CD130007D672 /* testData.json in Resources */,
 				AB6DC7AF2B32F21500CDDCD4 /* Assets.xcassets in Resources */,
 				AB6DC7AD2B32F21400CDDCD4 /* Main.storyboard in Resources */,
