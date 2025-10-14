@@ -43,5 +43,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIFileSharingEnabled</key>
+	<false/>
 </dict>
 </plist>

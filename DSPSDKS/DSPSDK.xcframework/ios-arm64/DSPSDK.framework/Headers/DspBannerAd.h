@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  关闭banner广告详情页回调
+ 此方法没有调用，请使用- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView
  */
 - (void)bannerAdDidCloseOtherController:(DspBannerAd *)dspBannerAd;
 

@@ -43,10 +43,8 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 @property(nonatomic, copy) NSString *token;
 
 @property(nonatomic, readonly) NSString *xtoken;
-
+// 初始化appId
 @property(nonatomic, copy) NSString *app_id;
-
-@property(nonatomic, copy) NSString *app_id_zj;
 
 ///数字版本号
 @property(nonatomic) NSInteger version_code;
@@ -73,6 +71,8 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 
 @property (nonatomic, strong) id <DspPrivacyProvider> privacyProvider;
 
+// SDK是否初始化完成，YES为初始化完成，NO为没完成
+@property (nonatomic, assign) BOOL sdkInitIsSuccess;
 
 @end
 

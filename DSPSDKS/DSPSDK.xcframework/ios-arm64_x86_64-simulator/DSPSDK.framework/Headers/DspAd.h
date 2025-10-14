@@ -63,6 +63,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 目前仅支持插屏和激励视频
 @property (nonatomic, assign) BOOL one_click_close_landing_page;
 
+// 支持插屏和激励视频，点击广告再次返回，广告页面自动关闭
+@property (nonatomic, assign) BOOL click_to_close;
+
 @property(nonatomic, weak) UIViewController *rootViewController;
 
 @property(nonatomic, weak) id <DspAdDelegate> delegate;
