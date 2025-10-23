@@ -61,6 +61,18 @@ extern NSString * _Nonnull  const Dsp_Location_img_txtdown;
 @property (nonatomic, copy) NSString *content_edge;
 
 /// 模板样式
+// left: 左图右文
+// top: 上图下文
+// right: 右图左文
+// bottom: 下图上文
+// center: 纯图
+// img_txtfloat: 图片 + 文字浮层（竖版图片）
+// upimg_downtxt: 上图下文（横板图片）
+// leftimg_righttxt: 左图右文（竖版图片）
+// video_txtfloat: 视频 + 文字浮层
+// video_txtdown: 视频 + 文字底栏
+// upvideo_downcard: 上视频下卡片
+// leftvideo_rightcard: 左视频右卡片
 @property (nonatomic, copy) NSString *image_location;
 
 /// 图片宽高比例 16x8

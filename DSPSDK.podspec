@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "DSPSDK"
-  s.version = "1.0.2.3"
+  s.version = "1.0.2.4"
   s.summary = "DSPSDK广告"
   s.description      = <<-DESC
     DSPSDKS广告，提供丰富的广告源
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/hzzhongjian/DSPSDK.git" , :tag => s.version.to_s}
   s.resource = 'DSPSDKS/*.bundle'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '11.0' 
   s.vendored_framework   = 'DSPSDKS/*.xcframework'
   s.preserve_paths =  'DSPSDKS/*.xcframework'
 end

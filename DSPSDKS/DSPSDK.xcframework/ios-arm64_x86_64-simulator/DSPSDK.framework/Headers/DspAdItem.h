@@ -40,7 +40,7 @@ typedef NS_ENUM(NSInteger, DspMediaType){
 /// 广告编号--广告创意ID
 @property (nonatomic, copy) NSString *ad_item_id;
 
-/// 订单编号 同广告编号
+/// 订单编号--广告编号
 @property (nonatomic, copy) NSString *order_no;
 
 @property (nonatomic, copy) NSString *company_name;
@@ -63,7 +63,7 @@ typedef NS_ENUM(NSInteger, DspMediaType){
 
 @property (nonatomic, assign) NSInteger valid_duration;
 
-///int 类型，单位分，-1 为非 bidding，大于等于0 bidding 价格
+///int 类型，单位分，-1 固价(非竞价)
 @property(nonatomic,assign) NSInteger price;
 
 @property(nonatomic,assign) NSInteger bidEcpm;
