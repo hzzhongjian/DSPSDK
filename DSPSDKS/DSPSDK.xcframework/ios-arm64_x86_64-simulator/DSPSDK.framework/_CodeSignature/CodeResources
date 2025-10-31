@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/DspNativeAd.h</key>
 		<data>
-		Tb4M+wovIhsh6kO6WHwyP/lo/E0=
+		nMiHQ6qdRtnjwBWmi5DLqypoGvo=
 		</data>
 		<key>Headers/DspNativeAdManager.h</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EDmsjEBF05ej8jBMyIKXbU+zNxQ=
+		//dIWgYX3Yr0YuSfst/LSzIXOWI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -519,11 +519,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tb4M+wovIhsh6kO6WHwyP/lo/E0=
+			nMiHQ6qdRtnjwBWmi5DLqypoGvo=
 			</data>
 			<key>hash2</key>
 			<data>
-			0GEGzstZqfy/o3DwLaJTL89Q1cDK2eeJ4zhGOnCWgvw=
+			re2LI3t2R12rB0+D6bDuOWcIDDcuyOIkuK27VE1sPcE=
 			</data>
 		</dict>
 		<key>Headers/DspNativeAdManager.h</key>

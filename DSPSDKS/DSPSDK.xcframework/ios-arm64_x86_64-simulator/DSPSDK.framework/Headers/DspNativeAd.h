@@ -109,6 +109,12 @@ typedef NS_ENUM(NSInteger, DspAdMaterialType) {
 // 设置视频播放是否静音
 @property (nonatomic, assign) BOOL videoMuted;
 
+/** 用户可根据该字段，自己控制视频/图片是否可以点击，
+* 如果是YES，就是可以点击，
+* 默认为NO，根据SDK内部去判断视频是否可以点击*
+*/
+@property (nonatomic, assign) BOOL forced_clickable;
+
 @property (nonatomic, copy) void(^clickBlock)(DspAdItem *adItem, id responseObject);
 
 - (void)refreshData:(DspNativeAd *)nativeAd;
