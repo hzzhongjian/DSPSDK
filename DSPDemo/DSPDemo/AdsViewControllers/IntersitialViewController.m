@@ -26,7 +26,7 @@
     _dspInterstitialAd.ad_id = AdId_Interstitial1;
     _dspInterstitialAd.ad_type = DspADType_Interstitial;
     _dspInterstitialAd.delegate = self;
-    _dspInterstitialAd.shake_power = @"2";
+    _dspInterstitialAd.shake_power = @"15";
     NSDictionary *params = @{
         @"image_height":[NSNumber numberWithDouble:KScreenSize.height],
         @"image_width":[NSNumber numberWithDouble:KScreenSize.width]

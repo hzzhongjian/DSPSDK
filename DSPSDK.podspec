@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "DSPSDK"
-  s.version = "1.0.2.7"
+  s.version = "1.0.2.8"
   s.summary = "DSPSDK广告"
   s.description      = <<-DESC
     DSPSDKS广告，提供丰富的广告源
