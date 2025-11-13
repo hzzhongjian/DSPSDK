@@ -29,6 +29,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)bannerAdDidClick:(DspBannerAd *)dspBannerAd;
 
+/*
+ * banner广告打开详情页回调
+ */
+- (void)bannerAdDetailViewShow:(DspBannerAd *)dspBannerAd;
+
 /**
  关闭banner广告详情页回调
  此方法没有调用，请使用- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView

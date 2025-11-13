@@ -29,6 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)dspRewardVideoAd:(DspRewardVideoAd *)dspRewardVideoAd displayFailWithError:(nullable NSError *)error;
 
+- (void)dspRewardVideoAdDetailViewShow:(DspRewardVideoAd *)dspRewardVideoAd;
+
 @end
 
 @interface DspRewardVideoAd : DspAd

@@ -109,7 +109,7 @@ self.dspSplashAd = [[DspSplashAd alloc] init];
 self.dspSplashAd.zjad_id = Appid; // AppId
 self.dspSplashAd.ad_id = adId; // 请求的广告位ID
 self.dspSplashAd.ad_type = DspADType_Splash; // 请求的广告类型
-self.dspSplashAd.shake_power = @"2"; // 设置摇一摇力度，默认为2
+self.dspSplashAd.shake_power = @"15"; // 设置摇一摇力度，默认需要设置为15，0代表关闭
 self.dspSplashAd.falling = 1; // 是否禁止掉落动画，如果值大于0就开启，否则关闭
 self.dspSplashAd.falling_rate = 30; // 设置红包雨效果展示的概率, 取值范围[0-100]
 self.dspSplashAd.delegate = self; // 设置代理回调
@@ -140,9 +140,6 @@ if(self.dspSplashAd){
 // 开屏广告加载失败
 - (void)dspAdLoadFail:(DspAd *)dspAd error:(NSError *)error;
 
-// 开屏广告详情页关闭的事件回调
-- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView
-
 //开屏广告成功展示
 - (void)dspSplashAdSuccessPresentScreen:(DspSplashAd *)dspSplashAd;
 
@@ -161,6 +158,12 @@ if(self.dspSplashAd){
 
 //  开屏广告错误
 - (void)dspSplashAdError:(DspSplashAd *)dspSplashAd withError:(NSError *)error;
+
+// 落地页打开的事件回调
+- (void)dspSplashAdDetailViewShow:(DspSplashAd *)dspSplashAd;
+
+// 开屏广告详情页关闭的事件回调
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView;
 
 ```
 
@@ -231,7 +234,7 @@ self.dspInterstitialAd = [[DspInterstitialAdDelegate alloc] init];
 self.dspInterstitialAd.zjad_id = Appid; // AppId
 self.dspInterstitialAd.ad_id = adId; // 请求的广告位ID
 self.dspInterstitialAd.ad_type = DspADType_Interstitial; // 请求的广告类型
-self.dspInterstitialAd.shake_power = @"2"; // 设置摇一摇力度，默认为2
+self.dspInterstitialAd.shake_power = @"15"; // 设置摇一摇力度，默认需要设置为15，0代表关闭
 self.dspInterstitialAd.falling = 1; // 是否禁止掉落动画，如果值大于0就开启，否则关闭
 self.dspInterstitialAd.falling_rate = 30; // 设置红包雨效果展示的概率, 取值范围[0-100]
 self.dspInterstitialAd.delegate = self; // 设置代理回调
@@ -262,9 +265,6 @@ if(self.dspInterstitialAd){
 // 插屏广告加载失败
 - (void)dspAdLoadFail:(DspAd *)dspAd error:(NSError *)error;
 
-// 插屏广告详情页关闭的事件回调
-- (void)dspAdDetailClosed:(DspAd *)dspAd adItem:(DspAdItem *)adItem;
-
 //插屏广告成功展示回调
 - (void)dspInterstitialAdDidPresentScreen:(DspInterstitialAd*) dspInterstitialAd;
 
@@ -279,6 +279,12 @@ if(self.dspInterstitialAd){
 
 // 插屏广告失败回调
 - (void)dspInterstitialAdDidFail:(DspInterstitialAd *)dspInterstitialAd error:(NSError * __nullable)error
+
+// 插屏广告详情页打开的事件回调
+- (void)dspInterstitialAdDetailViewDidShow:(DspInterstitialAd *)dspInterstitialAd;
+
+// 插屏广告详情页关闭的事件回调
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView;
 
 ```
 
@@ -325,7 +331,7 @@ self.dspRewardVideoAd = [[DspRewardVideoAd alloc] init];
 self.dspRewardVideoAd.zjad_id = Appid; // AppId
 self.dspRewardVideoAd.ad_id = adId; // 请求的广告位ID
 self.dspRewardVideoAd.ad_type = DspADType_RewardVideo; // 请求的广告类型
-self.dspRewardVideoAd.shake_power = @"2"; // 设置摇一摇力度，默认为2
+self.dspRewardVideoAd.shake_power = @"15"; // 设置摇一摇力度，默认需要设置为15，0代表关闭
 self.dspRewardVideoAd.falling = 1; // 是否禁止掉落动画，如果值大于0就开启，否则关闭
 self.dspRewardVideoAd.falling_rate = 30; // 设置红包雨效果展示的概率, 取值范围[0-100]
 self.dspRewardVideoAd.user_id = @"18888888888"; // 用户的唯一标识
@@ -378,6 +384,11 @@ if(self.dspRewardVideoAd){
 // 激励广告播放失败
 - (void)dspRewardVideoAd:(DspRewardVideoAd *)dspRewardVideoAd displayFailWithError:(nullable NSError *)error
 
+// 落地页打开的事件回调
+- (void)dspRewardVideoAdDetailViewShow:(DspRewardVideoAd *)dspRewardVideoAd;
+
+// 落地页关闭的事件回调
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView;
 ```
 
 #### 获取激励广告eCPM价格，单位为分
@@ -423,7 +434,7 @@ self.fullVideoAd = [[DspFullScreenVideoAd alloc] init];
 self.fullVideoAd.zjad_id = Appid; // AppId
 self.fullVideoAd.ad_id = adId; // 请求的广告位ID
 self.fullVideoAd.ad_type = DspADType_FullVideoAd; // 请求的广告类型
-self.fullVideoAd.shake_power = @"2"; // 设置摇一摇力度，默认为2
+self.fullVideoAd.shake_power = @"15"; // 设置摇一摇力度，默认需要设置为15，0代表关闭
 self.fullVideoAd.delegate = self; // 设置代理回调
 // 设置请求参数，图片的宽度，高度
 NSDictionary *params = @{
@@ -519,8 +530,8 @@ self.bannerAd = [[DspBannerAd alloc] init];
 self.bannerAd.zjad_id = Appid; // AppId
 self.bannerAd.ad_id = adId; // 请求的广告位ID
 self.bannerAd.ad_type = DspADType_Banner; // 请求的广告类型
-self.bannerAd.shake_power = @"2"; // 设置摇一摇力度，默认为2
-self.bannerAd.size = CGSizeMake(KScreenSize.width, 200); // 设置横幅Banner的宽度和高度
+self.bannerAd.shake_power = @"15"; // 设置摇一摇力度，默认需要设置为15，0代表关闭
+self.bannerAd.size = CGSizeMake(KScreenSize.width, 200); // 设置横幅Banner的宽度和高度,宽度必须设置，高度可以设置为0，sdk会根据宽高比去布局
 self.bannerAd.interval = 3;
 self.bannerAd.delegate = self; // 设置代理回调
 // 设置请求参数，图片的宽度，高度
@@ -568,10 +579,14 @@ if(self.bannerAd){
 /**
  关闭banner广告详情页回调
  */
-- (void)bannerAdDidCloseOtherController:(DspBannerAd *)dspBannerAd;
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView;
 
 - (void)bannerAdDidFail:(DspBannerAd *)dspBannerAd error:(NSError * __nullable)error;
 
+/*
+ * banner广告打开详情页回调
+ */
+- (void)bannerAdDetailViewShow:(DspBannerAd *)dspBannerAd;
 
 ```
 
@@ -618,6 +633,8 @@ self.dspFeedAd = [[DspFeedAd alloc] init];
 self.dspFeedAd.zjad_id = Appid; // AppId
 self.dspFeedAd.ad_id = adId; // 请求的广告位ID
 self.dspFeedAd.ad_type = DspADType_Feed; // 请求的广告类型
+self.dspFeedAd.videoMuted = NO;
+self.dspFeedAd.shake_power = @"15"; // 设置摇一摇力度，默认需要设置为15，0代表关闭
 self.dspFeedAd.adSize = CGSizeMake(KScreenSize.width, 200); // 设置信息流加载素材的宽度和高度
 self.dspFeedAd.delegate = self; // 设置代理回调
 // 设置请求参数，图片的宽度，高度
@@ -673,10 +690,13 @@ for (int i = 0; i<views.count; i++) {
 - (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDidClick:(DspFeedAdView *)dspFeedView;
 
 // 信息流view关闭
-- (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDislike:(DspFeedAdView *)dspFeedView withReason:(NSString*) reason;
+- (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDislike:(DspFeedAdView *)dspFeedView withReason:(NSString*)reason;
+
+// 信息流详情页打开
+- (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDidDetailViewShow:(DspFeedAdView *)dspFeedView;
 
 // 信息流详情页关闭
-- (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDidCloseDetailController:(DspFeedAdView *)dspFeedView;
+- (void)dspAdDetailClosed:(nonnull DspAd *)dspAd adView:(nonnull UIView *)adView;
 
 // 信息流播放状态回调
 - (void)dspFeedAd:(DspFeedAd *)dspFeedAd statusChanged:(DspFeedAdViewPlayerStatus)status feedAdView:(DspFeedAdView *)dspFeedView;
@@ -741,6 +761,7 @@ self.nativeAdManager.zjad_id = Appid; // AppId
 self.nativeAdManager.ad_id = adId; // 请求的广告位ID
 self.nativeAdManager.ad_type = DspADType_Native; // 请求的广告类型
 self.nativeAdManager.videoMuted = NO; // 设置视频是否静音，默认为静音
+self.nativeAdManager.shake_power = @"15"; // 设置摇一摇力度，默认需要设置为15，0代表关闭
 self.nativeAdManager.adSize = CGSizeMake(KScreenSize.width, 200); // 设置信息流加载素材的宽度和高度
 self.nativeAdManager.delegate = self; // 设置代理回调
 // 设置请求参数，图片的宽度，高度

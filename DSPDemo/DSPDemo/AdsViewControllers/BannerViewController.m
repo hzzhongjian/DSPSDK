@@ -64,10 +64,6 @@
     MKLog(@"=========%@", NSStringFromSelector(_cmd));
 }
 
-- (void)bannerAdDidCloseOtherController:(nonnull DspBannerAd *)dspBannerAd { 
-    MKLog(@"=========%@", NSStringFromSelector(_cmd));
-}
-
 - (void)bannerAdDidFail:(nonnull DspBannerAd *)dspBannerAd error:(NSError * _Nullable)error { 
     MKLog(@"=========%@", NSStringFromSelector(_cmd));
     MKLog(@"======error:%@",error);
@@ -78,6 +74,18 @@
 }
 
 - (void)bannerAdWillBecomVisible:(nonnull DspBannerAd *)dspBannerAd { 
+    MKLog(@"=========%@", NSStringFromSelector(_cmd));
+}
+
+/*
+ * banner广告打开详情页回调
+ */
+- (void)bannerAdDetailViewShow:(DspBannerAd *)dspBannerAd
+{
+    
+}
+
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView {
     MKLog(@"=========%@", NSStringFromSelector(_cmd));
 }
 

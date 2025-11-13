@@ -35,6 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
 //  开屏广告错误
 - (void)dspSplashAdError:(DspSplashAd *)dspSplashAd withError:(NSError *)error;
 
+// 落地页打开的事件回调
+- (void)dspSplashAdDetailViewShow:(DspSplashAd *)dspSplashAd;
+
 @end
 
 @interface DspSplashAd : DspAd

@@ -185,16 +185,21 @@
 
 }
 
-- (void)dspAdDetailClosed:(nonnull DspAd *)dspAd adView:(nonnull UIView *)adView {
-    MKLog(@"======%s",__FUNCTION__);
-
-}
-
 - (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewRenderSuccess:(DspFeedAdView *)dspFeedView{
     [self.table reloadData];
 }
 - (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDidClick:(DspFeedAdView *)dspFeedView{
     MKLog(@"======%s",__FUNCTION__);
+}
+
+- (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDidDetailViewShow:(DspFeedAdView *)dspFeedView
+{
+    
+}
+
+- (void)dspAdDetailClosed:(nonnull DspAd *)dspAd adView:(nonnull UIView *)adView {
+    MKLog(@"======%s",__FUNCTION__);
+
 }
 #pragma mark =============== LazyLoad ===============
 -(NSMutableArray *)dataArray{

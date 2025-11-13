@@ -28,7 +28,7 @@
     _dspSplashAd.zjad_id = Appid;
     _dspSplashAd.ad_id = AdId_Splash1;
     _dspSplashAd.ad_type = DspADType_Splash;
-    _dspSplashAd.shake_power = @"2";
+    _dspSplashAd.shake_power = @"15";
     _dspSplashAd.delegate = self;
     NSDictionary *params = @{
         @"image_height":[NSNumber numberWithDouble:[UIScreen mainScreen].bounds.size.height],
@@ -80,8 +80,13 @@
 
 }
 
--(void) dspAdDetailClosed:(DspAd*) dspAd adItem:(DspAdItem*) adItem{
-    //[self z]
+- (void)dspSplashAdDetailViewShow:(DspSplashAd *)dspSplashAd
+{
+    MKLog(@"======%s",__FUNCTION__);
+}
+
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView{
+    MKLog(@"======%s",__FUNCTION__);
 }
 
 - (void)dspSplashAdError:(nonnull DspSplashAd *)dspSplashAd withError:(nonnull NSError *)error {

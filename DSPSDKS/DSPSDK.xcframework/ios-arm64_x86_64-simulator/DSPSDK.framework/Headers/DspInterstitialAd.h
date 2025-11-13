@@ -14,15 +14,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol DspInterstitialAdDelegate <DspAdDelegate>
 
-- (void) dspInterstitialAdDidPresentScreen:(DspInterstitialAd*) dspInterstitialAd;
+- (void)dspInterstitialAdDidPresentScreen:(DspInterstitialAd *)dspInterstitialAd;
 
 - (void)dspInterstitialAdDidRewardEffective:(nonnull DspInterstitialAd *)provider;
 
-- (void) dspInterstitialAdDidClick:(DspInterstitialAd*) dspInterstitialAd;
+- (void)dspInterstitialAdDidClick:(DspInterstitialAd *)dspInterstitialAd;
 
-- (void) dspInterstitialAdDidClose:(DspInterstitialAd*) dspInterstitialAd;
+- (void)dspInterstitialAdDidClose:(DspInterstitialAd *)dspInterstitialAd;
 
-- (void) dspInterstitialAdDidFail:(DspInterstitialAd*) dspInterstitialAd error:(NSError * __nullable)error;
+- (void)dspInterstitialAdDidFail:(DspInterstitialAd *)dspInterstitialAd error:(NSError * __nullable)error;
+
+- (void)dspInterstitialAdDetailViewDidShow:(DspInterstitialAd *)dspInterstitialAd;
 
 @end
 

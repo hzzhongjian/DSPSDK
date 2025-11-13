@@ -52,12 +52,14 @@
     MKLog(@"======%s",__FUNCTION__);
     [self showAD];
 }
-
--(void) dspAdDetailClosed:(DspAd*) dspAd adItem:(DspAdItem*) adItem{
+// 详情页关闭的事件回调
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView{
     MKLog(@"======%s",__FUNCTION__);
 }
 
-- (void)dspInterstitialAdDetailDidClose:(nonnull DspInterstitialAd *)provider {
+// 详情页打开的事件回调
+- (void)dspInterstitialAdDetailViewDidShow:(DspInterstitialAd *)dspInterstitialAd
+{
     MKLog(@"======%s",__FUNCTION__);
 }
 

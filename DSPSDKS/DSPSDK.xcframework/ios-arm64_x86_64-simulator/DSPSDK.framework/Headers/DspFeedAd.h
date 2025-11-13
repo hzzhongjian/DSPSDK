@@ -28,7 +28,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDidClosed:(DspFeedAdView *)dspFeedView;
 
+/*
+ * 落地页关闭的事件回调，
+ * 推荐使用- (void)dspAdDetailClosed:(nonnull DspAd *)dspAd adView:(nonnull UIView *)adView
+ */
 - (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDidCloseDetailController:(DspFeedAdView *)dspFeedView;
+
+- (void)dspFeedAd:(DspFeedAd *)dspFeedAd feedAdViewDidDetailViewShow:(DspFeedAdView *)dspFeedView;
 
 - (void)dspFeedAd:(DspFeedAd *)dspFeedAd statusChanged:(DspFeedAdViewPlayerStatus)status feedAdView:(DspFeedAdView *)dspFeedView;
 
