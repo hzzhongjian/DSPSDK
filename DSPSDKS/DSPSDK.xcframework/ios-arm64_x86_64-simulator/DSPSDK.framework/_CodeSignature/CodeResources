@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/DSPCommon.h</key>
+		<data>
+		23vueTxPw4bvbbQ+xhjkKz+IUpI=
+		</data>
 		<key>Headers/DSPDeviceInfo.h</key>
 		<data>
 		51TgWm/BL0MfHFYV8bvHzyT75Z8=
 		</data>
 		<key>Headers/DSPSDK.h</key>
 		<data>
-		rXROJI5CNArvQBXGn32VKpf2W1o=
+		BLOiu8Z+6Wui0QqCYmibf38QVvg=
 		</data>
 		<key>Headers/DSPSDKConfig.h</key>
 		<data>
@@ -19,6 +23,10 @@
 		<key>Headers/DSPSDKEnum.h</key>
 		<data>
 		4bpa37V0sxefoz0/lGO+xTp8Nhg=
+		</data>
+		<key>Headers/DSPXORUtils.h</key>
+		<data>
+		biDWmDY8Ajevf5SAq9qup3WiOiE=
 		</data>
 		<key>Headers/DspAd.h</key>
 		<data>
@@ -194,7 +202,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1JB9Fzpk5Z/Jpq/jg6WRDx7Qf+Y=
+		kBOBwehqCtTJmc/QsnxzorQJsjY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -207,6 +215,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/DSPCommon.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			23vueTxPw4bvbbQ+xhjkKz+IUpI=
+			</data>
+			<key>hash2</key>
+			<data>
+			nJ4Gq71oHcCwgb+D3vBVLXEwT9ms0NtPQDCzo9EKxfM=
+			</data>
+		</dict>
 		<key>Headers/DSPDeviceInfo.h</key>
 		<dict>
 			<key>hash</key>
@@ -222,11 +241,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rXROJI5CNArvQBXGn32VKpf2W1o=
+			BLOiu8Z+6Wui0QqCYmibf38QVvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			zbhn8WC2oP8csDtkC+ZHIVCei67nfES2eFZOSNHUpJ4=
+			LrUUTaAOOcwMTnhk26WClBTNdLkC2HJ6Dc4PrS58u0M=
 			</data>
 		</dict>
 		<key>Headers/DSPSDKConfig.h</key>
@@ -249,6 +268,17 @@
 			<key>hash2</key>
 			<data>
 			PCQ/jSg1OawMr8LscGv6tChc7+lHBn+c5Q/qCLKXa6w=
+			</data>
+		</dict>
+		<key>Headers/DSPXORUtils.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			biDWmDY8Ajevf5SAq9qup3WiOiE=
+			</data>
+			<key>hash2</key>
+			<data>
+			PNXhPitPwDzCtw49DSA0C2OYCT3DoY1moIGtaOe+ozc=
 			</data>
 		</dict>
 		<key>Headers/DspAd.h</key>

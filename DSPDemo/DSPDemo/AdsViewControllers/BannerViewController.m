@@ -24,8 +24,8 @@
 
 -(void)loadAD{
     _bannerAd = [DspBannerAd new];
-    _bannerAd.zjad_id = @"Z9663789745";
-    _bannerAd.ad_id = @"J3971855045";//J0695926914
+    _bannerAd.zjad_id = Appid;
+    _bannerAd.ad_id = AdId_Banner1;//J0695926914
     _bannerAd.ad_type = DspADType_Banner;
     _bannerAd.size = CGSizeMake(KScreenSize.width, 200);
     _bannerAd.interval = 0;
