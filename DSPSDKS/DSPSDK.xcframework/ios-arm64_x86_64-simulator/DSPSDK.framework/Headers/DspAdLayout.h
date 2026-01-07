@@ -92,6 +92,8 @@ extern NSString * _Nonnull  const Dsp_Location_img_txtdown;
 
 @property (nonatomic, copy) NSString *desc_Color;
 
++ (DspAdLayout *)parseAdLayout:(NSDictionary *)adLayout;
+
 @end
 
 NS_ASSUME_NONNULL_END

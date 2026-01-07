@@ -70,6 +70,8 @@ extern NSString * _Nonnull const Action_Wechat_mini;
 /// webview 使用内部跳转，browser 使用外部浏览器跳转
 @property (nonnull, copy) NSString *h5_type;
 
++ (DspAdAction *)parseAdAction:(NSDictionary *)adAction;
+
 @end
 
 NS_ASSUME_NONNULL_END

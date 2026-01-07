@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,copy) NSString *desc_Color;
 
++ (DspAdCard *)parseAdCard:(NSDictionary *)adCardDict;
 
 @end
 

@@ -110,7 +110,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 播放到指定秒上报, 3秒，5秒
 @property (nonatomic, strong) NSArray<NSString *> *play_n_seconds;
 
-
++ (DspEventUrls *)parseEventUrls:(NSDictionary *)eventUrlsDict;
 
 @end
 

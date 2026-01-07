@@ -37,6 +37,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIViewController *)topViewControllerFromKeyWindow;
 
+// 字典转字符串，去除字符串中的特殊字符
++ (NSString *)mapToString:(NSDictionary *)dict;
+
+// JSON字符串转字典
++ (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
+
 @end
 
 NS_ASSUME_NONNULL_END

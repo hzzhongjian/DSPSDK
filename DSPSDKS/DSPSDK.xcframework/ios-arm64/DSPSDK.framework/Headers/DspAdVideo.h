@@ -37,6 +37,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 自动跳转地址(h5)
 @property (nonatomic, copy) NSString *auto_jump_url;
 
++ (DspAdVideo *)parseAdVideo:(NSDictionary *)adVideoDict;
+
 @end
 
 NS_ASSUME_NONNULL_END
