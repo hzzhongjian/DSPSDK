@@ -20,6 +20,7 @@
 
 -(void)loadAD{
     self.fullVideoAd = [[DspFullScreenVideoAd alloc] init];
+    self.fullVideoAd.floor_price = 0;
     self.fullVideoAd.zjad_id = Appid;
     self.fullVideoAd.ad_id = AdId_FullScreenVideo1;
     self.fullVideoAd.ad_type = DspADType_FullVideoAd;

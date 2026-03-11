@@ -44,6 +44,7 @@
 }
 -(void)loadAd{
     _dspFeedAd = [DspFeedAd new];
+    _dspFeedAd.floor_price = 0;
 //    _dspFeedAd.zjad_id = @"Z9663789745";
 //    _dspFeedAd.ad_id = @"J0128142431";
     _dspFeedAd.zjad_id = Appid;

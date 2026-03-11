@@ -24,6 +24,7 @@
 
 -(void)loadAD{
     _bannerAd = [DspBannerAd new];
+    _bannerAd.floor_price = 0;
     _bannerAd.zjad_id = Appid;
     _bannerAd.ad_id = AdId_Banner1;//J0695926914
     _bannerAd.ad_type = DspADType_Banner;

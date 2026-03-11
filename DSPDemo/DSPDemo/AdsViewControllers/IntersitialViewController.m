@@ -22,6 +22,7 @@
 }
 -(void)loadAD{
     _dspInterstitialAd = [DspInterstitialAd new];
+    _dspInterstitialAd.floor_price = 1000;
     _dspInterstitialAd.zjad_id = Appid;
     _dspInterstitialAd.ad_id = AdId_Interstitial1;
     _dspInterstitialAd.ad_type = DspADType_Interstitial;

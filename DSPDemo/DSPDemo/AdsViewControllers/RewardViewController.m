@@ -22,6 +22,7 @@
 
 -(void)loadAD{
     _dspRewardVideoAd = [DspRewardVideoAd new];
+    _dspRewardVideoAd.floor_price = 0;
     _dspRewardVideoAd.zjad_id = Appid;
     _dspRewardVideoAd.ad_id = AdId_Reward1;
     _dspRewardVideoAd.shake_power = @"15";

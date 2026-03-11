@@ -25,6 +25,7 @@
 
 -(void)loadAD{
     _dspSplashAd = [DspSplashAd new];
+    _dspSplashAd.floor_price = 0;
     _dspSplashAd.zjad_id = Appid;
     _dspSplashAd.ad_id = AdId_Splash1;
     _dspSplashAd.ad_type = DspADType_Splash;

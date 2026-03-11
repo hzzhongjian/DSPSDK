@@ -44,6 +44,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, copy) NSString *shake_power; // 摇一摇
 
+// 请求广告时的底价：floor_price  int 类型/分
+@property (nonatomic, assign) NSInteger floor_price;
+
 // 是否禁止掉落动画，如果值大于0就开启，否则关闭
 @property (nonatomic, assign) NSInteger falling;
 

@@ -53,6 +53,7 @@
 - (void)loadAd
 {
     _nativeAdManager = [DspNativeAdManager new];
+    _nativeAdManager.floor_price = 0;
     _nativeAdManager.zjad_id = Appid;
     _nativeAdManager.ad_id = AdId_NativeAd1;
     _nativeAdManager.ad_type = DspADType_Native;
