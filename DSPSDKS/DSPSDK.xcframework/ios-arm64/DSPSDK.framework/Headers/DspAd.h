@@ -60,7 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString *extra;
 
 /// caid json值
-@property (nonatomic, strong) NSString *caid_json;
+@property (nonatomic, strong) NSString *promotion_params;
 
 // 落地页点击关闭按钮后，关闭所有的页面
 // 目前仅支持插屏和激励视频
