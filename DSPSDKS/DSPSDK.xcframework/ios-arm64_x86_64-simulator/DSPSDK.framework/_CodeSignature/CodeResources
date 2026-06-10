@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/DSPDeviceInfo.h</key>
 		<data>
-		51TgWm/BL0MfHFYV8bvHzyT75Z8=
+		Ik5j4BPBc7+pZegC7ysq9IclFo8=
 		</data>
 		<key>Headers/DSPSDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/DSPSDKConfig.h</key>
 		<data>
-		NHsqwzrTU1K7xMAqKqlpzU9AjKk=
+		G0b+cxRDw3AM6d7m+Nw9K8ICyJU=
 		</data>
 		<key>Headers/DSPSDKEnum.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/DspAd.h</key>
 		<data>
-		W6BDX+QJ1QHzYg+spJIYg1UEvxM=
+		LLKjxNRpHt6DEKCz6rwQrOx1S8c=
 		</data>
 		<key>Headers/DspAdAction.h</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6ElOfvJrO7SY2Uie/V3eIEba1gE=
+		np0P04TGlvLYvIqds3yFG27a1AI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4fh1XR5dSYoXvaNLVV/4fFfgRyJ9itPwBy8mTKUTruE=
+			5jvmPtDx+0uZija3iiWNaQaQLgCFbmlY58PwllPoWAY=
 			</data>
 		</dict>
 		<key>Headers/DSPSDK.h</key>
@@ -240,7 +240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5HyTkQ2S0Y6JZYvGFzPu+1z3cLjetxAFi/OE4BWYRoA=
+			jgoOjZuZy2cnhI7bRpFitfliQPsXLk0R74vYfBFbTV4=
 			</data>
 		</dict>
 		<key>Headers/DSPSDKEnum.h</key>
@@ -261,7 +261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w3WHMwBmWQ2KADfXoNCdXrOkatPwDQH8W75cJ2mx2zo=
+			M6hmyqAJwsgDKPlU/cHNIGhs3AzLToEe8sJcjKGZxqc=
 			</data>
 		</dict>
 		<key>Headers/DspAdAction.h</key>

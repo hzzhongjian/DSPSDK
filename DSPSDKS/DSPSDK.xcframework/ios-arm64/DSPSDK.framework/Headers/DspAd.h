@@ -138,6 +138,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (NSDictionary *)getExtraInfo;
 
+/**
+ * server bidding 广告数据加载
+ */
+- (void)loadServerBiddingAd:(nullable NSDictionary*)params;
+
 @end
 
 NS_ASSUME_NONNULL_END
