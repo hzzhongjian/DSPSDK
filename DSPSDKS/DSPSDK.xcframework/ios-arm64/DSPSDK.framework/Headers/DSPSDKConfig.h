@@ -74,7 +74,7 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 // SDK是否初始化完成，YES为初始化完成，NO为没完成
 @property (nonatomic, assign) BOOL sdkInitIsSuccess;
 
-+ (NSString *)getSdkServerBiddingInfo:(NSDictionary *)params;
++ (NSDictionary *)getSdkServerBiddingInfo:(NSDictionary *)params;
 
 @end
 
