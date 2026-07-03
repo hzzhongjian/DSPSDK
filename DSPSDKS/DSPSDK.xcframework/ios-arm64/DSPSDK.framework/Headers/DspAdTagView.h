@@ -18,7 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)styleClear;
 
+
 - (void)setAdLog:(DspAdItem *)adItem;
+
+
++ (instancetype)createStyleBlack;
+
+- (void)styleBlack;
+
 
 @end
 

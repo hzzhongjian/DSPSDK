@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (CGFloat)getStatusBarHeight;
 
++ (CGFloat)getNavigationBarHeight:(UIViewController *)vc;
+
 //获取时间戳（毫秒）
 + (NSInteger )getTimestampSince1970;
 

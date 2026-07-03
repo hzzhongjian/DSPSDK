@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy) NSString *zjad_id;
 
 @property(nonatomic, copy) NSString *trade_id;
-/// 广告为ID
+/// 广告位ID，类似联盟广告位
 @property(nonatomic, copy) NSString *ad_id;
 
 @property(nonatomic, copy) NSString *ad_type; // 广告类型
