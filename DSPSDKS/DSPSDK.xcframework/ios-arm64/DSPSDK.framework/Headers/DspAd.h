@@ -143,6 +143,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)loadServerBiddingAd:(nullable NSDictionary*)params;
 
+/**
+ * 获取落地页相关信息
+ *  type 为1001 为获取广告交互类型
+ *  type 为 1002 为获取广告交互链接
+ */
+
+- (NSString *)getAdLandingPageInfo:(NSUInteger)type;
+
 @end
 
 NS_ASSUME_NONNULL_END
