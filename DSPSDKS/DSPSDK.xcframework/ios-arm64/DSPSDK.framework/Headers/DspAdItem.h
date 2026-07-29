@@ -25,9 +25,6 @@ typedef NS_ENUM(NSInteger, DspMediaType){
 // 这是每个数据对象的完整数据，没有解析
 @property (nonatomic, strong) NSDictionary *ad_data;
 
-// 这个字段代表AppId
-@property (nonatomic, copy) NSString *zjad_id;
-
 // 广告位id
 @property (nonatomic, copy) NSString *ad_id;
 

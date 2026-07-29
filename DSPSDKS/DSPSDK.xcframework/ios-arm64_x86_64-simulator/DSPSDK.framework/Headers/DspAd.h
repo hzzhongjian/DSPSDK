@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DspAd : NSObject
 
-/// 媒体id，即申请的AppId
+/// ssp广告位id，已不再使用
 @property(nonatomic, copy) NSString *zjad_id;
 
 @property(nonatomic, copy) NSString *trade_id;

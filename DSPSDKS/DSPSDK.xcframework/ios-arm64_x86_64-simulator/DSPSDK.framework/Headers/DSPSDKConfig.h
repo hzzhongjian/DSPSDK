@@ -52,8 +52,6 @@ typedef NS_ENUM(NSInteger,DSPAdSDKLogLevel){
 ///版本号
 @property (nonatomic, copy, readonly) NSString *sdk_ver;
 
-@property (nonatomic, copy, readonly) NSString *sdk_ver_zj;
-
 @property (strong, nonatomic) CLLocation *location;
 
 @property (nonatomic, strong, readonly) NSString *userAgent;
