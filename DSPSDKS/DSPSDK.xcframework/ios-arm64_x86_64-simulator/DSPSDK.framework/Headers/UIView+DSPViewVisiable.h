@@ -9,11 +9,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (ViewVisiable)
+@interface UIView (DSPViewVisiable)
 
-- (BOOL)isViewVisible;
+- (BOOL)dsp_isViewVisible;
 
-- (BOOL)isSubViewVisible;
+- (BOOL)dsp_isSubViewVisible;
 
 @end
 

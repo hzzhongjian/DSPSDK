@@ -188,21 +188,21 @@
 		<data>
 		9o0Im+ED1X12GTNdCB7pokB/6jo=
 		</data>
+		<key>Headers/UIView+DSPViewVisiable.h</key>
+		<data>
+		yje/xulIvaU8zPvHEUxJPH4wE3s=
+		</data>
 		<key>Headers/UIView+ShakeAction.h</key>
 		<data>
-		IEcuJLRqqzXnoowHzl5D/1YSVYU=
+		lU05zQE8bsv4CSF7/nhYjRKe+oU=
 		</data>
 		<key>Headers/UIView+Twist.h</key>
 		<data>
-		GVqYTI1+C1fqknP4cF0uyw8UTtQ=
-		</data>
-		<key>Headers/UIView+ViewVisiable.h</key>
-		<data>
-		pgzUWbDL83c5B4O0LqQotn7pGpo=
+		eeLwC2HhkurbXGV760Qo9S6s0HY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uDr2bSdmtXStsAdLj2yHQlXH3zU=
+		RMbsCQF5Xf37kQxwNTWLaX7bHo8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -537,25 +537,25 @@
 			A6tAUXIWQEDTp5A5XDz3bsCr769o/zK19lEIr6FMm9A=
 			</data>
 		</dict>
+		<key>Headers/UIView+DSPViewVisiable.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xNpLolAqEkGP5X+AXTciq3Eo4G7MBK9KVJppthzuhZw=
+			</data>
+		</dict>
 		<key>Headers/UIView+ShakeAction.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMwqQZQxB/By5mMlnHCIZd40j454ItHVxwGly/1NNXs=
+			uTNApMCqlkeSDsih6F86aJXPdSJrc/OGCGXrvjxQeuc=
 			</data>
 		</dict>
 		<key>Headers/UIView+Twist.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			leTCxgD340UYK7Tpv+6YGyRa3e9quFU++HxBrCo+Lds=
-			</data>
-		</dict>
-		<key>Headers/UIView+ViewVisiable.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VhmDvPseHC4eG7v82bIr6346a2yXiXAZHKlDuI3C5fU=
+			8Q2naFqeKZMS8FcQpl1iq3Odq4aOn2Ifd2m3DdqSYN8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

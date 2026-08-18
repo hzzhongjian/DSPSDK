@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreMotion/CoreMotion.h>
 #import <objc/message.h>
-#import <DSPSDK/UIView+ViewVisiable.h>
+#import <DSPSDK/UIView+DSPViewVisiable.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

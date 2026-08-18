@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreMotion/CoreMotion.h>
-#import <DSPSDK/UIView+ViewVisiable.h>
+#import <DSPSDK/UIView+DSPViewVisiable.h>
 #import <objc/message.h>
 
 /**
