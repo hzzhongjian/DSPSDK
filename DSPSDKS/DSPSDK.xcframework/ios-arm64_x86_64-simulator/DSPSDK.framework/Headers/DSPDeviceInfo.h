@@ -40,21 +40,30 @@ typedef NS_ENUM(NSInteger, DSPAPPSTATUS){
 /// 将shareAppsStatus以@{@"type":app_name,@"inst_status": app_atatus}的json形式返回，给接口用
 + (NSString *)shareAppsStatusJsonString;
 
-// 系统更新标识
-+ (NSString *)getUpdate;
+// 设备的网络节点名称
++ (NSString *)NodeName;
+
+// 国家
++ (NSString *)getLocCountry;
+
++ (NSString *)getTimeZoon;
+
++ (NSString *)getLang;
+
+// 获取系统重启时间
++ (double)sessionStartTimestamp;
+
+//// 最后一次系统更新时间
+//+ (NSString *)getUpdate;
 
 /// 系统启动时间，是一个相对的时间，以秒为单位
 + (NSString *)getSystemUptime;
 
-// 设备的网络节点名称
-+ (NSString *)NodeName;
-
-// 获取系统重启时间
-+ (double)systemBootTime;
-
-// 获取系统的启动时间，是一个绝对的时间，值是一个时间戳,格式为1748329689.63223
-// 系统启动标识
+// 启动时间
 + (NSString *)getBoot;
+
+//// 系统更新时间
+//+ (NSString *)getSysU;
 
 @end
 
