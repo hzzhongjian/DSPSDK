@@ -80,16 +80,27 @@
     MKLog(@"=========%@", NSStringFromSelector(_cmd));
 }
 
-/*
- * banner广告打开详情页回调
- */
-- (void)bannerAdDetailViewShow:(DspBannerAd *)dspBannerAd
+- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView
 {
-    
-}
-
-- (void)dspAdDetailClosed:(DspAd *)dspAd adView:(UIView *)adView {
     MKLog(@"=========%@", NSStringFromSelector(_cmd));
 }
+
+- (void)bannerAdDetailViewShow:(DspBannerAd *)dspBannerAd
+{
+    MKLog(@"=========%@", NSStringFromSelector(_cmd));
+}
+
+- (void)dspAdLoadSuccessful:(DspAd *)dspAd
+{
+    MKLog(@"=========%@==%@", NSStringFromSelector(_cmd), dspAd.getExtraInfo[@"request_id"]);
+    MKLog(@"banner frame %@", NSStringFromCGRect(_bannerAd.bannerView.frame));
+}
+
+- (void)dspAdLoadFail:(DspAd *)dspAd error:(NSError *)error
+{
+    MKLog(@"=========%@", NSStringFromSelector(_cmd));
+    MKLog(@"======error:%@",error);
+}
+
 
 @end
