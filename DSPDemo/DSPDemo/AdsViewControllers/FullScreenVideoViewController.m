@@ -24,6 +24,8 @@
     self.fullVideoAd.zjad_id = Appid;
     self.fullVideoAd.ad_id = AdId_FullScreenVideo1;
     self.fullVideoAd.ad_type = DspADType_FullVideoAd;
+    self.fullVideoAd.shake_power = @"15";
+    self.fullVideoAd.shake_times = 1;
     self.fullVideoAd.delegate = self;
     NSDictionary *params = @{
         @"image_height":[NSNumber numberWithDouble:[UIScreen mainScreen].bounds.size.height],

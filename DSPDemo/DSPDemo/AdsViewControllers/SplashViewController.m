@@ -30,6 +30,7 @@
     _dspSplashAd.ad_id = AdId_Splash1;
     _dspSplashAd.ad_type = DspADType_Splash;
     _dspSplashAd.shake_power = @"15";
+    _dspSplashAd.shake_times = 1;
     _dspSplashAd.delegate = self;
     NSDictionary *params = @{
         @"image_height":[NSNumber numberWithDouble:[UIScreen mainScreen].bounds.size.height],

@@ -52,6 +52,8 @@
     _dspFeedAd.ad_type = DspADType_Feed;
     _dspFeedAd.delegate = self;
     _dspFeedAd.adSize = CGSizeMake(self.table.frameWidth, 0);
+    _dspFeedAd.shake_power = @"15";
+    _dspFeedAd.shake_times = 2;
     NSDictionary *params = @{
         @"image_height":@0,
         @"image_width":[NSNumber numberWithDouble:KScreenSize.width],

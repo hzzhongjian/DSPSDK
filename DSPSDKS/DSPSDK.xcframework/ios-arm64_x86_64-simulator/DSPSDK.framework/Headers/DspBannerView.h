@@ -12,9 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface DspBannerView : DspView
 
-@property(nonatomic, weak) id <DspViewDelegate> delegate;
+@property (nonatomic, weak) id <DspViewDelegate> delegate;
 
-@property(nonatomic, copy) NSString *imageUrl;
+@property (nonatomic, copy) NSString *imageUrl;
+
 
 @end
 

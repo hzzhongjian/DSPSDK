@@ -30,6 +30,8 @@
     _bannerAd.ad_type = DspADType_Banner;
     _bannerAd.size = CGSizeMake(KScreenSize.width, 200);
     _bannerAd.interval = 0;
+    _bannerAd.shake_power = @"15";
+    _bannerAd.shake_times = 1;
     _bannerAd.delegate = self;
     NSDictionary *params = @{
         @"image_height":[NSNumber numberWithDouble:KScreenSize.width],

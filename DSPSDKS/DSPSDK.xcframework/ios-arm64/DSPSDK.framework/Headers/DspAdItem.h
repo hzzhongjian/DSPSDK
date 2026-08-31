@@ -120,6 +120,9 @@ typedef NS_ENUM(NSInteger, DspMediaType){
 /// 用来记录摇一摇是否触发两次了，如果同一个广告超过两次，就不再触发了
 @property (nonatomic, assign) NSInteger shakeTimes;
 
+/// 记录本地摇一摇触发次数
+@property (nonatomic, assign) NSInteger shake_times;
+
 // 解析数据
 + (NSArray <DspAdItem *>*)parseAdItems:(NSArray <NSDictionary *>*)adItems;
 

@@ -10,7 +10,7 @@
 #import <DSPSDK/DSPSDKEnum.h>
 #import <DSPSDK/DspConstant.h>
 #import <DSPSDK/DspComplianceGuidanceView.h>
-
+#import <DSPSDK/UIView+ShakeAction.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -47,6 +47,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSDictionary *)click_point;
 
 @property (nonatomic, assign) BOOL hasShow;
+
+@property (nonatomic, assign) NSInteger shake_times;
+
+@property (nonatomic, copy) NSString *shake_power;
 
 @end
 

@@ -14,6 +14,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)dsp_setImageWithURLStr:(NSString *)urlStr;
 
+/// 播放本地GIF
+- (void)dsp_gif_playWithName:(NSString *)name;
+
+/// 停止播放
+- (void)dsp_gif_stop;
+
+/// 是否正在播放
+- (BOOL)dsp_gif_isPlaying;
+
 @end
 
 NS_ASSUME_NONNULL_END

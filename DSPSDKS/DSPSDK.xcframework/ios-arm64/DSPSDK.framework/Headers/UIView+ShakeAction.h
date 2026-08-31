@@ -25,7 +25,12 @@ typedef void(^ShakeActionHandler)(double accelerameter, double x, double y, doub
 
 @property(nonatomic,strong) NSString *shake_power;
 
+@property (nonatomic, assign) NSInteger shake_times;
+
 @property (nonatomic, copy) ShakeActionHandler motionEvent;
+
+// 上一次的时间戳
+@property (nonatomic, assign) NSTimeInterval preTimeInterval;
 
 - (void)loadMotionMonitorWithEvent:(ShakeActionHandler)motionEvent;
 

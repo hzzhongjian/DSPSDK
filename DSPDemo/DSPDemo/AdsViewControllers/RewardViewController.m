@@ -26,6 +26,7 @@
     _dspRewardVideoAd.zjad_id = Appid;
     _dspRewardVideoAd.ad_id = AdId_Reward1;
     _dspRewardVideoAd.shake_power = @"15";
+    _dspRewardVideoAd.shake_times = 2;
     _dspRewardVideoAd.ad_type = DspADType_RewardVideo;
     _dspRewardVideoAd.delegate = self;
     NSDictionary *params = @{

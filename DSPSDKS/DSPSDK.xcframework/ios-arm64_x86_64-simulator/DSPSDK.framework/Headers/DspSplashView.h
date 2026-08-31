@@ -30,8 +30,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) BOOL area_enable;
 
-@property (nonatomic, copy) NSString *shake_power;
-
 @property (nonatomic, assign) BOOL falling;
 
 @property (nonatomic, weak) id <DspSplashViewDelegate> delegate;

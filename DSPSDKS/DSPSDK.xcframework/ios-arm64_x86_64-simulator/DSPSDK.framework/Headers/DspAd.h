@@ -44,6 +44,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, copy) NSString *shake_power; // 摇一摇
 
+// 摇一摇次数，默认为1
+@property (nonatomic, assign) NSInteger shake_times;
+
 // 请求广告时的底价：floor_price  int 类型/分
 @property (nonatomic, assign) NSInteger floor_price;
 
