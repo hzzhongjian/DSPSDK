@@ -50,20 +50,26 @@ typedef NS_ENUM(NSInteger, DSPAPPSTATUS){
 
 + (NSString *)getLang;
 
-// 获取系统重启时间
+// 当前时间 - 系统运行时间 = 启动时间
 + (double)sessionStartTimestamp;
-
-//// 最后一次系统更新时间
-//+ (NSString *)getUpdate;
 
 /// 系统启动时间，是一个相对的时间，以秒为单位
 + (NSString *)getSystemUptime;
 
-// 启动时间
-+ (NSString *)getBoot;
+// 设备初始化时间
++ (NSString *)getFileTime;
 
-//// 系统更新时间
-//+ (NSString *)getSysU;
+// 系统更新时间
++ (NSString *)getSysU;
+
+// 系统启动时间
++ (NSString *)bootTimeInSec;
+
+// 获取系统更新标识
++ (NSString *)update_mark;
+
+// 获取系统启动标识
++ (NSString *)boot_mark;
 
 @end
 
